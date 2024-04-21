@@ -1,0 +1,458 @@
+/****************************************************/
+/* PC用スタイル                                     */
+/****************************************************/
+
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+/*    color: #161212;*/
+    color:dimgray;
+    text-shadow:
+      0 2px 0 #c7c7c7,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #161212;
+    text-shadow: 2px 2px 11px white;
+  }
+
+  /* コンテンツ主部 */
+
+  /* PC用とスマフォ用のご挨拶の切り替え */
+  /*#intro-pc {
+    display: none;
+  }*/
+  #intro-sp {
+    display: none;
+  }
+
+  details {
+    position: relative;
+    display: block;
+    width: 91%;
+    line-height: 1.5rem;
+  }
+  details > summary {
+    position: relative;
+    display: block;
+    line-height: 1.5rem;
+    font-style: italic;
+  }
+
+  #introduction {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 748px;
+    max-width: 1080px;
+    margin: 0 10.0rem 0 1.0rem;
+    padding: 0 0 0 0;
+  }
+
+  #intro-pc > h2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  #intro-pc > p {
+    position: relative;
+    display: block;
+    width: 92%;
+    margin: 0 4.0rem 0 2.0rem;
+    padding: 0 0 0 0;
+  }
+
+  #summary-explain {
+    position: relative;
+    display: block;
+    margin: 1.0rem 0 0 1.5rem;
+    padding: 0 0 0 0;
+  }
+
+  h3::after {
+    content: url("../images/Border/blueLine01.png");
+    margin-left: 15px;
+  }
+
+  #our-company {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: calc( 768px - 15px - 40px );
+    max-width: calc( 1080px - 15px - 40px );
+    margin: 0 auto 0 auto;
+    padding: 15px 15px 0 20px;
+  }
+
+  #our-company-description {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: calc( 768px - 15px - 40px );
+    max-width: calc( 1080px - 15px - 40px );
+    margin: 0 auto 0 auto;
+    height: 320px;
+  }
+
+  #what-company {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 320px;
+  }
+
+  #what-services{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 600px;
+  }
+
+  .two-frame {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    min-width: calc( ( 768px - 15px - 40px ) * 0.4 );
+    max-width: calc( ( 1080px - 15px - 40px ) * 0.4 );
+    height: 100px;
+  }
+
+  .two-frame p {
+    position: absolute;
+    top: 16px;;
+    z-index: 51;
+    width:90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  #what-company > ul {
+    position: absolute;
+    top: 70px;
+    z-index: 51;
+    width: 72%;
+    padding-left: 17%;
+    padding-right: 11%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #what-services > ul {
+    position: absolute;
+    top: 90px;
+    z-index: 51;
+    width: 72%;
+    padding-left: 17%;
+    padding-right: 11%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .wood-frame{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .detail-button {
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    padding-bottom: 10px;
+  }
+
+  #our-attitude {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: calc( 768px - 15px - 40px );
+    max-width: calc( 1080px - 15px - 40px );
+    margin: 0 auto 0 auto;
+    padding: 15px 15px 0 20px;
+  }
+
+  #our-attitude-description {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: calc( 768px - 15px - 40px );
+    max-width: calc( 1080px - 15px - 40px );
+    margin: 0 auto 0 auto;
+    height: 360px;
+  }
+
+  #what-tympathy {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 320px;
+  }
+
+  #what-tympathy > ol {
+    position: absolute;
+    top: 65px;
+    z-index: 51;
+    width: 58%;
+    padding-left: 32%;
+    padding-right: 10%;
+    font-size: 16px;
+    line-height: 32px;
+    list-style-type: cjk-decimal;
+  }
+
+  #what-motto {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 320px;
+  }
+
+  #what-motto > ul {
+    position: absolute;
+    top: 65px;
+    z-index: 51;
+    width: 58%;
+    padding-left: 32%;
+    padding-right: 10%;
+    font-size: 16px;
+    line-height: 32px;
+    list-style-type: none;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color: #161212;
+    text-shadow:
+      0 2px 0 #c7c7c7,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #161212;
+    text-shadow: 2px 2px 11px white;
+  }
+
+  /* コンテンツ主部 */
+
+  /* PC用とスマフォ用のご挨拶の切り替え */
+  #intro-pc {
+    display: none;
+  }
+  /*#intro-sp {
+    display: none;
+  }*/
+
+  details {
+    position: relative;
+    display: block;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  details > summary {
+    position: relative;
+    display: block;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-style: italic;
+  }
+
+  #introduction {
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: auto;
+  }
+
+  #introduction > h2 {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto 0 auto;
+  }
+
+  #introduction > p {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto 0 auto;
+  }
+
+  h3::after {
+    content: url("../images/Border/blueLine02.png");
+    margin-left: 1.0rem;
+  }
+
+  #our-company {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto 0 auto;
+  }
+
+  #our-company-description {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto 0 auto;
+  }
+
+  #what-company {
+    position: relative;
+    display: block;
+    width: 18rem;
+    height: 21.5rem;
+  }
+
+  #what-services{
+    position: relative;
+    display: block;
+    width: 18rem;
+    height: 21.5rem;
+  }
+
+  .two-frame {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 767px;
+    margin: auto;
+    height: 23rem;
+  }
+
+  .two-frame p {
+    position: absolute;
+    top: 1.2rem;
+    z-index: 51;
+    width:90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  #what-company > ul {
+    position: absolute;
+    top: 4.0rem;
+    z-index: 51;
+    width: 72%;
+    padding-left: 17%;
+    padding-right: 11%;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+  }
+
+  #what-services > ul {
+    position: absolute;
+    top: 5.8rem;
+    z-index: 51;
+    width: 72%;
+    padding-left: 17%;
+    padding-right: 11%;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+  }
+
+  .wood-frame{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .detail-button {
+    position: absolute;
+    top: 17.0rem;
+    left: 3.2rem;
+  }
+
+  #our-attitude {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto 0 auto;
+  }
+
+  #our-attitude-description {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto 0 auto;
+  }
+
+  #what-tympathy {
+    position: relative;
+    display: block;
+    width: 18rem;
+    height: 21.5rem;
+  }
+
+  #what-tympathy > ol {
+    position: absolute;
+    top: 3.5rem;
+    z-index: 51;
+    width: 58%;
+    padding-left: 32%;
+    padding-right: 10%;
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    list-style-type: cjk-decimal;
+  }
+
+  #what-motto {
+    position: relative;
+    display: block;
+    width: 18rem;
+    height: 21.5rem;
+  }
+
+  #what-motto > ul {
+    position: absolute;
+    top: 3.5rem;
+    z-index: 51;
+    width: 58%;
+    padding-left: 30%;
+    padding-right: 10%;
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    list-style-type: none;
+  }
+
+}

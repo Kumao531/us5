@@ -1,0 +1,266 @@
+/****************************************************/
+/* PC用スタイル                                     */
+/****************************************************/
+
+@media screen and (min-width: 768px) {
+
+  /* コンテンツ主部 */
+
+  .sp-query {
+    display: none;
+  }
+
+  #inquiry-area {
+    width: 90%;
+    margin: 0 auto 0 auto;
+/*    background-color:lightblue;*/
+  }
+  #inquiry-area > h2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 2.0rem 0 1.0rem 0rem;
+    padding: 0 0 0 0;
+    text-decoration-line: underline;
+    text-decoration-color: #aeaeae;
+  }
+
+  .oneline-query {
+    position: relative;
+    display: flex;
+    margin: 0 0 1.0rem 0;
+  }
+  .oneline-query > .label {
+    margin: 0;
+    padding-top: 0.7rem;
+    width: 30%;
+  }
+  .oneline-query > .label > p {
+    margin: 0;
+    padding: 0;
+  }
+  .oneline-query > .query {
+    padding-top: 1.1rem;
+  }
+
+  .manyline-query {
+    position: block;
+    display: block;
+    margin: 0 0 1.0rem 0;
+  }
+  .manyline-query > .label > p {
+    margin: 0;
+    padding-top: 0.7rem;
+  }
+  .manyline-query> .query,
+  .select-query {
+    padding-left: 5.0rem;
+  }
+
+  .area-top-margin {
+    margin-top: 1.0rem;
+  }
+
+  #purpose-other {
+    margin: 0;
+    padding-left: 5.0rem;
+  }
+
+  #query-content {
+    position: relative;
+    display: block;
+    width: 40rem;
+    margin: 0 0 1.0rem 0;
+    padding: 0 0 0 0;
+  }
+  #contact-textarea {
+    position: relative;
+    display: block;
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+  }
+
+  /* タイトルに付随する注釈文字の体裁 */
+  .empasis-phrase {
+    font-size: 0.8rem;
+    vertical-align: text-top;
+    color: red;
+  }
+
+  .send-btn {
+    margin: 0;
+    padding: 1rem 0 2rem 1rem;
+  }
+
+  /* 入力域の体裁 */
+  /* テキストボックス */
+  .contact-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+  }
+  /* お問い合わせ内容のテキストエリア */
+  .contact-textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+  }
+
+  /* 送信ボタン */
+  .send-btn {
+    position: relative;
+    display: block;
+    width: 15%;
+    margin: 0 0 0 0;
+    padding: 2.0rem 0 2.0rem 0.8%;
+  }
+  .send-btn > input {
+    width: 100%;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* コンテンツ主部 */
+
+  .pc-query {
+    display: none;
+  }
+
+  #inquiry-area {
+    width: 95%;
+    margin: 0 auto 0 auto;
+/*    background-color:lightblue;*/
+  }
+  #inquiry-area > h2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0 0.7rem 0rem;
+    padding: 0 0 0 0;
+    text-decoration-line: underline;
+    text-decoration-color: #aeaeae;
+  }
+
+  .oneline-query {
+    display: block;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .oneline-query > .label {
+    width: 100%;
+  }
+  .oneline-query > .label > p {
+    margin: 0;
+    padding: 0;
+  }
+  .oneline-query > .query {
+    padding-top: 0.3rem;
+    padding-left: 1.0rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .manyline-query {
+    display: block;
+  }
+  .manyline-query > .label > p {
+    margin: 0;
+    padding: 0;
+  }
+  .manyline-query> .query,
+  .select-query {
+    padding-top: 0.1rem;
+    padding-left: 1.0rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #purpose-other {
+    margin: 0;
+    padding-left: 1.0rem;
+  }
+  #purpose-other > p {
+    font-size: 0.75rem;
+  }
+
+  #query-content {
+    position: relative;
+    display: block;
+    width: 20rem;
+    margin: 1.0rem 0 1.0rem 0;
+    padding: 0 0 0 0;
+  }
+  #contact-textarea {
+    position: relative;
+    display: block;
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+  }
+
+ /* タイトルに付随する注釈文字の体裁 */
+  .empasis-phrase {
+    font-size: 0.7rem;
+    vertical-align: text-top;
+    color: red;
+  }
+
+  .send-btn {
+    margin: 0;
+    padding: 1rem 0 2rem 1rem;
+  }
+
+  /* 入力域の体裁 */
+  /* テキストボックス */
+  .contact-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 90%;
+    height: 56px;
+  }
+  /* お問い合わせ内容のテキストエリア */
+  .contact-textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 90%;
+    height: 300px;
+  }
+
+  /* 送信ボタン */
+  .send-btn {
+    position: relative;
+    display: block;
+    width: 25%;
+    margin: 0 0 0 0;
+    padding: 5% 0 1.5rem 3.0%;
+  }
+  .send-btn > input {
+    width: 100%;
+  }
+
+}

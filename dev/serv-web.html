@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <title>ミカゲＩＴラボ ｜ | サービス紹介 | Web開発</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボのサービスでWeb開発についての鍾愛です。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/service-introducion.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./services.html#return-point">戻る</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./services.html#return-point"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">戻る</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（提供サービスの説明） -->
+
+    <main>
+
+      <article>
+
+        <!-- サービスの説明 -->
+        <section id="main-description">
+
+          <div id="information-area">
+
+            <h3>Web開発</h3>
+
+            <!-- サービスの説明本体 -->
+            <div id="explanation-area">
+
+              <!-- 背景イメージ -->
+              <div id="background-image">
+                <img />
+              </div>
+
+              <!-- 説明文本体 -->
+              <div id="description-area">
+
+                <!-- 提供サービス -->
+                <div id="service" class="description-block">
+                  <h4>提供サービス</h4 <!-- ランディング・ページ制作 -->
+                  <div id="landing-page" class="service-explain">
+                    <h5>ランディング・ページ制作</h5>
+                    <p>ランディングページの制作を承ります。</p>
+                  </div>
+                  <!-- Webサイト制作 -->
+                  <div id="make-site" class="service-explain">
+                    <h5>Webサイト制作</h5>
+                    <p>Webサイトの制作を承ります。</p>
+                  </div>
+                  <!-- Webページ修正 -->
+                  <div id="page-repair" class="service-explain">
+                    <h5>Webページ修正</h5>
+                    <p>すでに利用しているページの修正を承ります。</p>
+                  </div>
+                </div>
+
+                <!-- 適用技術 -->
+                <div id="apply-tech" class="description-block">
+                  <h4>適用技術</h4>
+                  <!-- 開発言語 -->
+                  <div id="program-lang" class="service-explain">
+                    <h5>開発言語</h5>
+                    <p>HTML、CSS、JavaScript、JQuery、など</p>
+                  </div>
+                  <!-- サーバーサイド -->
+                  <div id="server-side" class="service-explain">
+                    <h5>サーバーサイド</h5>
+                    <p>PHP、RDB（Oracel、MySql、など）、など</p>
+                  </div>
+                  <!-- CMS -->
+                  <div id="cms" class="service-explain">
+                    <h5>CMS</h5>
+                    <p>WordPress</p>
+                  </div>
+                  <!-- デザインツール -->
+                  <div id="design-tool" class="service-explain">
+                    <h5>デザインツール</h5>
+                    <p>Adobe Photoshop、Adobe Illustrator、 Gimp、 Canva、など</p>
+                  </div>
+                </div>
+
+                <!-- サービス提供要件 -->
+                <div id="applied-requirements" class="description-block">
+                  <h4>サービス適用条件</h4>
+                  <!-- 要件 -->
+                  <div id="requirements" class="service-explain">
+                    <p>製造物の要件が確定して製品の開発に入る段階で請負契約になると考えています。</p>
+                    <p>製造以前の要件整理や設計を決める段階では準委任契約での作業にすることを考えています。また、この準委任契約のところについてはリモートで作業をすることを計画しています。ただ、作業の性格上リモートでの実施が難しいところは現場へお伺いいたします。<br>この現場での作業につきまして事前にご相談させてください。
+                    </p>
+                    <p>著作権等の権利の移転に関して、知的財産が利用権のみの移転に限定されるパーツやパッケージを使用するばあいがあることを事前にご承知置きください。</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./services.html#return-point">戻る</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>

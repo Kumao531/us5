@@ -1,0 +1,381 @@
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+    color:#5e5e5e;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #5e5e5e;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  h3 {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto 30px auto;
+  }
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+  }
+
+  #pirofile-info {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 2.0rem;
+  }
+
+  #name-kanji {
+    font-family: "Noto Sans JP";
+    font-size: 2.0rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 1.5rem 0 0 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+  #name-kana {
+    position: relative;
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.0rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0.1rem 0 0 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  #short-biography > h3 {
+    font-family: "Noto Sans JP";
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 1.5rem 0 0.5rem 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  #bio-description {
+    display: flex;
+  }
+  #portrait {
+    display: inline-block;
+    width: 25%;
+  }
+  #portrait > img {
+    width: 90%;
+    margin: 0;
+    padding-top: 0.8rem;
+  }
+  #describe {
+    display: inline-block;
+    width: 68%;
+    margin: 0;
+  }
+  #describe > p {
+    margin: 0;
+    padding: 0 0 1.0rem 0;
+    line-height: 2.0rem;
+  }
+  #describe > ul {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0  1.0rem 2.0rem 3.0rem;
+    line-height: 1.7rem;
+  }
+/*  #describe > ul > li {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.2rem 0;
+    list-style-type: disc;
+  }*/
+
+  #shokureki {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0rem;
+  }
+  #shokureki > p {
+    margin: 0 0 1.0rem 2.0rem;
+    padding: 0 0 0 0;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #892f1f;
+  }
+  .meisai {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0.3rem 0 0.5rem 2.0rem;
+    padding: 0 0 0 0;
+  }
+  .meisai > details > img {
+    width: 100%;
+  }
+  #kosokoso {
+    margin: 0.5rem 0 0 2.0rem;
+    line-height: 1.6rem;
+  }
+
+  #skill {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0rem;
+    font-size: 1.2rem;
+  }
+  #skill > a {
+    position: relative;
+    display: block;
+    margin: 0.5rem 0 0 2.0rem;
+    padding: 0 0 0 0;
+    color: mediumblue;
+    text-decoration: underline;
+  }
+
+  #hanazono {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+  #hanazono > img {
+    width: 100%;
+  }
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+    /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color:#5e5e5e;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    color: #5e5e5e;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  h3 {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+  }
+
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  #pirofile-info {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 2.0rem;
+  }
+
+  #name-kanji {
+    font-family: "Noto Sans JP";
+    font-size: 2.0rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 1.5rem 0 0 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+  #name-kana {
+    position: relative;
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.0rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0.1rem 0 0 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  #short-biography > h3 {
+    font-family: "Noto Sans JP";
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 1.5rem 0 0.8rem 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  #bio-description {
+    display: block;
+  }
+  #portrait {
+    display: block;
+    width: 40%;
+  }
+  #portrait > img {
+    width: 100%;
+    margin: 0;
+    padding-top: 0.8rem;
+  }
+  #describe {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+  #describe > p {
+    margin: 0;
+    padding: 1.0rem 2.0rem 0 0;
+    line-height: 1.6rem;
+  }
+  #describe > ul {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 1.0rem  2.0rem 0.5rem 2.0rem;
+  }
+  #describe > ul > li {
+    margin: 0;
+    padding: 0 0 0.3rem 0;
+  }
+
+  #hobby-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  #shokureki {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  #shokureki > p {
+    margin: 0 0 1.0rem 1.0rem;
+    padding: 0 0 0 0;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #892f1f;
+  }
+  .meisai {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0.3rem 0 0.5rem 1.0rem;
+    padding: 0 0 0 0;
+  }
+  .meisai {
+    margin-right: 0.5rem;
+  }
+  .meisai > details > img {
+    margin-left: -4.0rem;
+    width: 160%;
+  }
+  #kosokoso {
+    margin: 0.5rem 0 0 0.8rem;
+    line-height: 1.6rem;
+  }
+
+  #skill {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0rem;
+    font-size: 1.0rem;
+  }
+
+  #skill>a {
+    position: relative;
+    display: block;
+    margin: 0.5rem 0 0 2.0rem;
+    padding: 0 0 0 0;
+    color: mediumblue;
+    text-decoration: underline;
+  }
+
+  #hanazono {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 2.0rem 0 0;
+    padding: 0 0 0 0;
+  }
+  #hanazono > img {
+    width: 100%;
+  }
+
+}

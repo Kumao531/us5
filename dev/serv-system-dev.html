@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ミカゲＩＴラボ ｜ | サービス紹介 | システム開発</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボのサービスでシステム開発についての紹介です。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/service-introducion.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./services.html#return-point">戻る</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./services.html#return-point"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">戻る</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（提供サービスの説明） -->
+
+    <main>
+
+      <article>
+
+        <!-- サービスの説明 -->
+        <section id="main-description">
+
+          <div id="information-area">
+
+            <h3>システム開発</h3>
+
+            <!-- サービスの説明本体 -->
+            <div id="explanation-area">
+
+              <!-- 背景イメージ -->
+              <div id="background-image">
+                <img />
+              </div>
+
+              <!-- 説明文本体 -->
+              <div id="description-area">
+
+                <!-- 提供サービス -->
+                <div id="service" class="description-block">
+                  <h4>提供サービス</h4>
+                  <!-- 商用アプリケーション開発 -->
+                  <div id="commercial-application" class="service-explain">
+                    <h5>商用アプリケーション開発</h5>
+                    <p>商取引活動の実現や、顧客サービスの仕掛けを実現するための、商用アプリケーションの開発を承ります。</p>
+                  </div>
+                  <!-- 社内システムの開発 -->
+                  <div id="inner-application" class="service-explain">
+                    <h5>社内システム開発</h5>
+                    <p>社内の企業活動を支援します社内アプリケーションの開発を承ります。</p>
+                  </div>
+                  <!-- システム基本設計 -->
+                  <div id="basic-design" class="service-explain">
+                    <h5>システムの基本設計</h5>
+                    <p>提供されるシステムが思った通りの機能を提供すること。<br>これを定めるための、</p>
+                      <ul>
+                        <li>処理の流れと個々の処理の造り</li>
+                        <li>システムと人との接点である画面の造り</li>
+                        <li>まとまった情報を提供する紙媒体や電子媒体の造り</li>
+                        <li>情報の蓄積をするためのデータベースの造り</li>
+                        <li>ほかの外部システムとの情報のやりとりの造り</li>
+                      </ul>
+                    <p>などについて、システムが扱うデータとその処理についての基本的な設計を支援します。</p>
+
+                  </div>
+                  <!-- 業務設計 -->
+                  <div id="business-task-design" class="service-explain">
+                    <h5>業務設計</h5>
+                    <p>業務がスムーズかつ有効に機能するために、業務の内容と業務の流れをどののように設計するのか。そして業務を生かすためには、どのようなITシステムの機能を用意するのか。</p>
+                    <p>みなさまの業務がより効率的、効果的、生産的、創造的であり、人間的な活動で遂行できるよう業務設計を支援します。</p>
+                  </div>
+                  <!-- 機械学習(AI)システムの制作 -->
+                  <div id="ai" class="service-explain">
+                    <h5>機械学習(AI)システムの制作</h5>
+                    <p>機械学習のテーマ分野の特徴の分析と把握。<br>その特徴にしたがったデータの収集と前処理の設計。<br>実データの機械的な加工方法を案出し、みなさまの要望に適応する機械学習を設計して、ご準備いただいた実データによって機械学習を増強します。<br>学習したことから提供される結果データに対して、みなさまと評価や検討を交えながら改良をすすめていき、より効果的な学習とより精度のよい予想の仕組みを創り上げる活動を推し進めてまいります。</p>
+                  </div>
+                  <!-- ITシステムの製造を支える技術支援 -->
+                  <div id="technical-support" class="service-explain">
+                    <h5>ITシステムの製造を支える技術支援</h5>
+                    <p>
+                      ITシステム製造にかかわるプロダクトの開発を支援します。<br>
+                      その支援メニューはプロダクト・アプリケーションの開発にとどまらず、利用する製造方法や、その基となる技術や技法の精錬についても支援を承ります。
+                    </p>
+                  </div>
+                </div>
+
+                <!-- 適用技術 -->
+                <div id="aoolied-technology" class="description-block">
+                  <h4>適用技術</h4>
+                  <!-- 開発言語 -->
+                  <div id="programing-language" class="service-explain">
+                    <h5>開発言語</h5>
+                    <p>Python、Java、C言語、など</p>
+                  </div>
+                  <!-- 稼働環境 -->
+                  <div id="system-environment" class="service-explain">
+                    <h5>稼働環境</h5>
+                    <p>Linux、Windows、など</p>
+                  </div>
+                  <!-- アプリケーション基盤環境 -->
+                  <div id="application-environment" class="service-explain">
+                    <h5>アプリケーション基盤環境</h5>
+                    <p>RDB（Oracle、MySQL、など）、各種サーバー環境、AWS EC2などにも対応できます。</p>
+                  </div>
+                </div>
+
+                <!-- 私たちのモノづくりの強み -->
+                <div id="our-strangeth" class="description-block">
+                  <h4 style="color:mediumblue;">私たちのモノづくりの強み</h4>
+                  <!-- 説明文 -->
+                  <div id="requirements" class="service-explain">
+                    <p>私たちは長年IT分野で活動してきています。</p>
+                    <p>多くの製品やその技術や、もととなる多くの知恵に接してきました。<br>
+                    なにより私たちの拠り所にしているものは、これまでに費やした時間に比例した、多くの原理や理論への深い理解と、それを応用へ導く多様な技術の蓄積にあります。</p>
+                    <p>ここまでにあげたものやことがらは、私たちがいままで携わってきた仕事の一部です。もちろん現在はまだ獲得できてはいないものも多くあります。けれども技法や利用するプロダクトは無限に存在しているのです。</p>
+                    <p>みなさまの要望に沿って、今は持っていないものを短期間で理解し、使いこなせるまでに技能を高めて、みなさまへのサービスに供してきたこと。<br>これがいままでの、そしてこれからの、私たちの強みなのです。</p>
+                  </div>
+
+                </div>
+
+                </div>
+
+                <!-- サービス提供方針 -->
+                <div id="service-policy" class="description-block">
+                  <h4>サービス提供方針</h4>
+                  <!-- 要件 -->
+                  <div id="policy" class="service-explain">
+                    <p>具体的な設計やモノ作りは、基本的にリモートで承ることを考えています。</p>
+                    <p>もちろん、みなさまがお持ちしているお考えやその思いを聴き尽くすために必要ならば、みなさまのもとにお伺いいたします。</p>
+                    <p>製造に関する業務は請負契約と考えております。<br>調査やシステム化構想、要件定義、業務設計、概要設計、基本設計。<br>これらの製造前の活動にかかわる契約については準委任で進めていきたいと考えています。</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./aboutus.html#return-point">戻る</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>

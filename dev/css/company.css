@@ -1,0 +1,482 @@
+@media screen and (min-width: 768px) {
+
+  /* カルーセル */
+  /* スマホ用ナビを非表示 */
+  #sp-carousel {
+    display: none;
+  }
+
+  .carousel-area {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1080px;
+  }
+
+  .carousel-plate {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1080px;
+  }
+
+  .image-area-01 {
+    position: relative;
+    display: block;
+    z-index: 49;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1080px;
+    opacity: 0.2;
+  }
+  .image-area-01 > a > img {
+    width: 100%;
+  }
+
+  .image-area-02 {
+    position: absolute;
+    display: block;
+    z-index: 50;
+    top: 27%;
+    left: 5%;
+    width: 25%;
+  }
+  .image-area-02 > a > img {
+    border: 1px;
+    border-style: ridge;
+    border-color: #8f8f8f;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .title-area {
+    position: absolute;
+    display: block;
+    z-index: 51;
+    top: 30%;
+    left: 35%;
+  }
+  .title-area > p {
+    font-size: 3.0rem;
+    font-family: "Noto Sans JP";
+    font-weight: 700;
+    color: #161212;
+    text-shadow:
+      0 2px 0 #c7c7c7,
+      0 2px 4px #100a0a;
+  }
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  .main-visual {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1080px;
+    z-index: 11;
+  }
+  .main-visual > img {
+    width: 100%;
+  }
+  .main-visual > h1 {
+    position: absolute;
+    display: block;
+    z-index: 51;
+    top: 11.0rem;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 3.0rem;
+    text-align: center;
+    color: #161212;
+    text-shadow:
+      0 1px 0 #c7c7c7,
+      0 1px 1px #100a0a;
+  }
+  .main-visual > p {
+    position: absolute;
+    display: block;
+    top: 16.5rem;
+    z-index: 51;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #161212;
+    text-shadow: 0.3rem 0.3rem 0.5rem white;
+  }
+
+
+  /* コンテンツ主部 */
+
+  h3 {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  h3::after {
+    position: relative;
+    top: -0.6rem;
+    content: url("../images/Border/blueLine01.png");
+    margin-left: 1.5rem;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto 30px auto;
+  }
+
+  /* 左側に文章がある構造 */
+  .left-mention {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+
+  .left-mention > .description-area {
+    order: 1;
+    position: relative;
+    display: inline-block;
+    width: 64%
+  }
+
+  .left-mention > .partition {
+    order:2;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 4%;
+    font-size: 3px;
+  }
+
+  .left-mention > .image-area {
+    order: 3;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    top: 25px;
+    width: 30%
+  }
+
+  .left-mention > .image-area > img {
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  /* 右側に文章がある構造 */
+  .right-mention {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+
+  .right-mention > .image-area {
+    order: 1;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    top: 25px;
+    width: 30%
+  }
+
+  .right-mention > .image-area > img {
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .right-mention > .partition {
+    order: 2;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 4%;
+    font-size: 3px;
+  }
+
+  .right-mention > .description-area {
+    order: 3;
+    position: relative;
+    display: inline-block;
+    width: 64%
+  }
+
+  .h4-philosophy {
+    margin: 1.4rem 0 0.8rem 0;
+  }
+
+  .p-philosophy {
+    margin:  1.0rem;
+  }
+
+  .h4-future {
+    margin: 1.4rem 0 0.8rem 0;
+  }
+
+  .p-future {
+    margin:  1.0rem;
+  }
+
+  /* 先頭に戻る */
+  .retuen-top {
+    position: relative;
+    display: block;
+    margin: 0 3.0rem 0 0;
+    text-align: right;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* カルーセル */
+  /* PC用ナビを非表示 */
+  #pc-carousel {
+    display: none;
+  }
+
+ #sp-carousel {
+    position:relative;
+    display: block;
+    width: 100%;
+  }
+  .carousel-area {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+
+  .carousel-plate {
+    position: relative;
+    display: block;
+    width: 100%;
+ }
+
+  .image-area-01 {
+    position: relative;
+    display: block;
+    z-index: 49;
+    width: 100%;
+    opacity: 0.2;
+  }
+  .image-area-01 > a > img {
+    width: 100%;
+  }
+
+  .image-area-02 {
+    position: absolute;
+    display: block;
+    z-index: 50;
+    top: 27%;
+    left: 5%;
+    width: 25%;
+  }
+  .image-area-02 > a > img {
+    border: 1px;
+    border-style: ridge;
+    border-color: #8f8f8f;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .title-area {
+    position: absolute;
+    display: block;
+    z-index: 51;
+    top: 30%;
+    left: 39%;
+  }
+  .title-area > p {
+    font-size: 1.5rem;
+    font-family: "Noto Sans JP";
+    font-weight: 700;
+    color: #161212;
+    text-shadow:
+      0 1px 0 #c7c7c7,
+      0 1px 1px #100a0a;
+  }
+
+  /* メインビジュアルの枠と表示する文字の調整 */
+
+  .main-visual {
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    max-width: 767px;
+    text-align: center;
+    z-index: 11;
+  }
+  .main-visual > img {
+    width: 100%;
+  }
+  .main-visual > h1 {
+    position: absolute;
+    display: block;
+    z-index: 51;
+    top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #161212;
+    text-shadow:
+      0 1px 0 #c7c7c7,
+      0 1px 1px #100a0a;
+  }
+  .main-visual > p {
+    position: absolute;
+    display: block;
+    top: 85px;
+    z-index: 51;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    color: #161212;
+    text-shadow: 0.3rem 0.3rem 0.5rem white;
+  }
+
+  /* コンテンツ主部 */
+
+  h3 {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  h3::after {
+    content: url("../images/Border/blueLine02.png");
+    margin-left: 15px;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto 30px auto;
+  }
+
+  /* 左側に文章がある構造 */
+  .left-mention {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+
+  .left-mention > .description-area {
+    order: 3;
+    position: relative;
+    display: block;
+    width: 100%
+  }
+
+  .left-mention > .partition {
+    order:2;
+    position: relative;
+    display: none;
+    vertical-align: top;
+    width: 4%;
+    font-size: 3px;
+  }
+
+  .left-mention > .image-area {
+    order: 1;
+    position: relative;
+    display: block;
+    top: 25px;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .left-mention > .image-area > img {
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  /* 右側に文章がある構造 */
+  .right-mention {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+
+  .right-mention > .image-area {
+    order: 1;
+    position: relative;
+    display: block;
+    top: 25px;
+    margin-bottom: 25px;
+    width: 100%
+  }
+
+  .right-mention > .image-area > img {
+    width: 40%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .right-mention > .partition {
+    order: 2;
+    position: relative;
+    display: none;
+    vertical-align: top;
+    width: 4%;
+    font-size: 3px;
+  }
+
+  .right-mention > .description-area {
+    order: 3;
+    position: relative;
+    display: block;
+    width: 100%
+  }
+
+  .h4-philosophy {
+    margin: 1.4rem 0 0.8rem 0;
+  }
+
+  .p-philosophy {
+    margin:  1.0rem;
+  }
+
+  .h4-future {
+    margin: 1.4rem 0 0.8rem 0;
+  }
+
+  .p-future {
+    margin:  1.0rem;
+  }
+
+  /* 先頭に戻る */
+  .retuen-top {
+    position: relative;
+    display: block;
+    margin: 0 1.0rem 0 0;
+    text-align: right;
+  }
+
+  /* フッター高さ調整 */
+  #footer-belt-pc {
+    height: 27.5rem;
+  }
+
+}

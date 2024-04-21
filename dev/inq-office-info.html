@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <title>ミカゲＩＴラボ ｜About US | オフィス</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボのオフィスです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/inq-office-info.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./aboutus.html#return-point">戻る</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./aboutus.html#return-point"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">戻る</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（会社紹介ページ） -->
+
+    <main>
+
+      <article>
+
+        <!-- オフィス情報 -->
+        <section id="main-description">
+
+          <div id="information-area">
+
+            <h3>オフィス</h3>
+
+            <!-- オフィス情報 -->
+            <div id="office-info">
+
+              <!-- 横浜事業所 -->
+              <div id="yokohama" class="offce">
+                <div class="label">
+                  <h4>横浜事業所</h4>
+                </div>
+                <div class="address">
+                  <p>〒224-0033</p>
+                  <p>神奈川県横浜市都筑区茅ケ崎東一丁目１番５－５０５</p>
+                  <p>℡：080-3443-1638</p>
+                  <p>mail：t-ariyoshi@mikage-it-lab.com</p>
+                </div>
+              </div>
+
+              <!-- 神戸サテライト -->
+              <div id="kobe" class="offce">
+                <div class="label">
+                  <h4>神戸サテライト</h4>
+                </div>
+                <div class="address">
+                  <p>〒658-0054</p>
+                  <p>兵庫県神戸市東灘区御影中町８－４－１０－１０３</p>
+                  <p>℡：080-3443-1638</p>
+                  <p>mail：t-ariyoshi@mikage-it-lab.com</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./aboutus.html#return-point">戻る</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>

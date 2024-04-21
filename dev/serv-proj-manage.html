@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <title>ミカゲＩＴラボ ｜ | サービス紹介 | プロジェクトマネージメント</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボのサービスでプロジェクトマネージメントについての紹介です。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/service-introducion.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./services.html#return-point">戻る</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./services.html#return-point"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">戻る</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（提供サービスの説明） -->
+
+    <main>
+
+      <article>
+
+        <!-- サービスの説明 -->
+        <section id="main-description">
+
+          <div id="information-area">
+
+            <h3>プロジェクトマネージメント</h3>
+
+            <!-- サービスの説明本体 -->
+            <div id="explanation-area">
+
+              <!-- 背景イメージ -->
+              <div id="background-image">
+                <img />
+              </div>
+
+              <!-- 説明文本体 -->
+              <div id="description-area">
+
+                <!-- サービスにあたって -->
+                <div id="service" class="description-block">
+                  <h4>サービスにあたって</h4>
+                  <!-- 開発様式について -->
+                  <div id="development-method" class="service-explain">
+                    <h5>開発様式について</h5>
+                    <p>私たちは「ウォター・フォール型」の開発様式をベースにプロジェクトマネージメントを行っています。</p>
+                    <p>近年「アジャイル型」の開発様式も発展し広がってまいりました。
+                    <a href="https://agilemanifesto.org/iso/ja/manifesto.html"
+                      alt="アジャイルソフトウェア開発宣言" style="color:mediumblue;font-weight:600;text-decoration:underline;">アジャイルソフトウェア開発宣言</a>に表されている主張について、私たちは共感をもっております。<br>
+                    ただ、この宣言に賛同したソフトウェア開発技法のいくつかでは「ウォター・フォール型」に対して成熟の余地がまだあるという認識です。<br>
+                    特に「突き詰めていない段階」からの自由度の高い活動を行ないますが、最終製品が備える十分な品質保証の担保へ至る手法が発展途上にあります。</p>
+                    <p>この点に気をつけながら、アジャイルの分野で確認できてきている多くの有用な仕組みやツールの利用をさせていただいております。</p>
+                  </div>
+                  <!-- マネージメントの規模にかかわって -->
+                  <div id="management-scale" class="service-explain">
+                    <h5>マネージメントの規模にかかわって</h5>
+                    <p>一つのプロジェクトをとってみると、数週間で完結するものから十数ヵ月費やすものまであります。<br>
+                    また、プロジェクトを構成するチームは数人規模のものから百人を超えるチームまであります。さらには複数のチームでプロジェクトを構成することが一般的になっています。<br>
+                    大規模なシステム開発においては、複数のプロジェクトがプロジェクト群を組むことも少なくありません。</p>
+                    <p>ここで考えなければならないことは、体制としてのプロジェクトの塊と、管理としてのプロジェクトマネージメントのカバーする範囲の関係です。<br>
+                    複数のプロジェクトが管理対象であれば、その中の一つのプロジェクトは全体のマネージメントに従う必要があります。<br>
+                    ある期間で完結するプロジェクトよりも、プロジェクトマネージメントの適用期間の方が長ければ、そのプロジェクトはその管理下に置かれるでしょう。</p>
+                    <p>私たちが任されるプロジェクトは、どのくらいのプロジェクトマネージメントのもとにありますか。<br>
+                    もし、プロジェクト管理方法の造り込みまでもプロジェクトマネージメントの中に任されるのならば、プロジェクト遂行前にマネージメントが有効に働くための仕掛けを準備をする時間が必要です。</p>
+                  </div>
+                  <!-- システム開発文化とプロジェクトマネージメント -->
+                  <div id="development-culture" class="service-explain">
+                    <h5>システム開発文化とプロジェクトマネージメント</h5>
+                    <p>みなさまのシステム開発文化のもとで、その規範の中でプロジェクトマネージメントは形成されていきます。<br>
+                    また、プロジェクトマネージメントが成熟していくことで、みなさまのシステム開発文化も成熟していきます。<br>
+                    そういう意味で、「システム開発文化」と「プロジェクトマネージメント」は鶏と卵の関係にあるのかもしれません。</p>
+                    <p>私たちがプロジェクトマネージメントを任されるということは、みなさまのシステム開発文化を身に馴染ませてマネージメント活動を行うということであります。また、私たちのマネージメント活動が少なからずみなさまのシステム開発文化に影響を与えるでしょう。</p>
+                    <p>このお互いの「熟れ」には時間を要します。絶対にです。</p>
+                  </div>
+                  <!-- 規範の正しらしさと従順性がすべて -->
+                  <div id="criterion-and-obedient" class="service-explain">
+                    <h5>規範の正しらしさと従順性がすべて</h5>
+                    <p>私たちが扱っているシステムやプログラムの原理は、元をただせば数学の世界から来ています。<br>
+                    だからソフトウェアやプログラムを縛る物理学的な法則は存在しません。<br>
+                    それゆえ、私たちが学んできた物理学ではシステムの動作やプログラムのふるまいの正しさは確認できません。<br>
+                    また数学に寄ってしても、実用規模のソフトウェアやプログラムは複雑すぎて、類推は行いますが、その正しさを容易に証明できるものはほぼ存在しません。<br>
+                    だから、システムづくり、プログラムづくりにおいての正しさの証明は非常に難しいことです。</p>
+                    <p>しかし何かに寄らなければシステムづくりが成り立ちません。<br>
+                    そこで私たちが頼っているのは、理論的には不完全ですが筋が通ったシステマチックな思考と行動の規範です。<br>
+                    プロジェクトマネジメントもこの規範の中にあります。<br>
+                    物理法則の制約では縛れない世界にあるので、ここでのルールは筋が通った「できるだけの、ただしらしさ」のある規範と、その規範に対する従順性が必要です。<br>
+                    そして、この規範が備える人間性が、モノづくりの正しさと、作業効率と、品質の作りこみに大いに影響を与えます。</p>
+                  </div>
+                </div>
+
+                <!-- 提供サービス -->
+                <div id="provided-service" class="description-block">
+                  <h4>提供サービス</h4>
+                  <!-- システム構築のプロジェクトマネージメント -->
+                  <div id="development-management" class="service-explain">
+                    <h5>システム構築のプロジェクトマネージメント</h5>
+                    <p>商取引活動や顧客サービスにかかわるシステム構築。<br>また、構築に供する仕組みとプロダクトの開発。<br>
+                    これらのプロジェクトマネジメントを承ります。</p>
+                  </div>
+                  <!-- サービスの提供方針 -->
+                  <div id="service-policy" class="service-explain">
+                    <h5>サービスの提供方針</h5>
+                    <p>個別のご依頼内容についてご相談をお受けします。</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./services.html#return-point">戻る</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>

@@ -1,0 +1,207 @@
+/****************************************************/
+/* PC用スタイル                                     */
+/****************************************************/
+
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+    color:#7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #7c7c7c;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* フッター高さ修正 */
+  #footer-belt-pc {
+    height: 350px;
+  }
+
+  /* コンテンツ主部 */
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0.5rem;
+/*    background-color:lightblue;*/
+  }
+    #information-area > h3 {
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  #explanation-area {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  #background-image {
+    display: none;
+  }
+
+  .description-block {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 1.0rem 1.0rem;
+  }
+  .description-block > h4 {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.5rem 0;
+  }
+
+  .service-explain {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 1.0rem 1.0rem;
+  }
+  .service-explain > h5 {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.3rem 0;
+  }
+  .service-explain > p {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 2.0rem 0.8rem 1.0rem;
+    line-height: 1.7rem;
+  }
+  .service-explain > ul {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.5rem 3.0rem;
+  }
+
+  .text-indent-1 {
+    margin-left: 2.0rem;
+    text-indent: -2.0rem;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color: #7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    color: #7c7c7c;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+/*    padding-bottom: 0.5rem; */
+/*    background-color:lightblue;*/
+  }
+  #information-area > h3 {
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  #explanation-area {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  #background-image {
+    display: none;
+  }
+
+  .description-block {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 1.5rem 1.0rem;
+  }
+  .description-block > h4 {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.5rem 0;
+  }
+
+  .service-explain {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.5rem 1.0rem;
+  }
+  .service-explain > h5 {
+    position: relative;
+    display: block;
+    margin: 0 0 0.3rem 0;
+    padding: 0 0 0 0;
+  }
+  .service-explain > p {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0.5rem 0.5rem 1.0rem;
+    line-height: 1.5rem;
+  }
+  .service-explain > ul {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0.5rem 3.0rem;
+  }
+
+  /* フッター高さ調整 */
+  #footer-belt-pc {
+    height: 27.5rem;
+  }
+
+}

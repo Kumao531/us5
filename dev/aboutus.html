@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ミカゲＩＴラボ ｜About US</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボのAbout USです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/aboutus.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./top.html">トップ</a>
+        <a href="./company.html">会社紹介</a>
+        <a href="./services.html">サービス説明</a>
+        <a href="./aboutus.html">About US</a>
+        <a href="./inquiry.html">お問い合わせ</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./company.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">会社紹介</a>
+        <a class="menu" href="./services.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">サービス説明</a>
+        <a class="menu" href="./aboutus.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">About
+          US</a>
+        <a class="menu" href="./inquiry.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">お問い合わせ</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（会社紹介ページ） -->
+
+    <main>
+
+      <article>
+
+        <!-- メインビジュアル -->
+        <section id="main-visual">
+          <div id="main-message">
+            <div id="img-pc">
+              <img src="./images/ThemaPhotos/AboutUS.png" alt="メインビジュアル">
+            </div>
+            <div id="img-sp">
+              <img src="./images/ThemaPhotos/AboutUSSP.png" alt="メインビジュアル">
+            </div>
+            <h1>About US</h1>
+            <p>私たちのことについて紹介します。</p>
+          </div>
+        </section>
+
+        <!-- ページ内での説明本体 -->
+        <!-- About US -->
+        <section id="about-us-explain">
+
+          <div id="about-us-description">
+
+            <!-- より詳しい説明ページへの遷移エリア -->
+            <div id="anchor-area">
+
+              <!-- 背景画像 -->
+              <img />
+
+              <!-- アンカー群をまとめるエリア -->
+              <div id="anchor-group">
+
+                <!-- 呼び出し先からの戻り点 -->
+                <a id="return-point"></a>
+
+                <!-- 企業情報 -->
+                <div id="company-info" class="anchor-button">
+                  <a href="./inq-company-info.html">
+                    <img src="./images/Page-aboutus/PaleCompanyInfoSearch.png" alt="企業情報検索ボタン" />
+                  </a>
+                </div>
+
+                <!-- オフィース -->
+                <div id="office-info" class="anchor-button">
+                  <a href="./inq-office-info.html">
+                    <img src="./images/Page-aboutus/PaleOfficeInfoSearch.png" alt="オフィス情報検索ボタン" />
+                  </a>
+                </div>
+
+                <!-- 開発・テスト環境 -->
+                <div id="enviroment-info" class="anchor-button">
+                  <a href="./inq-environ-info.html">
+                    <img src="./images/Button/button01.png" alt="ボタン" />
+                    <p>開発・テスト環境</p>
+                  </a>
+                </div>
+
+                <!-- 代表プロフィール -->
+                <div id="profile" class="anchor-button">
+                  <a href="./inq-senioroartner-info.html">
+                    <img src="./images/Button/button01.png" alt="ボタン" />
+                    <p>代表プロフィール</p>
+                  </a>
+                </div>
+
+                <!-- モットー -->
+                <div id="motto" class="anchor-button">
+                  <a href="./inq-motto.html">
+                    <img src="./images/Button/button01.png" alt="ボタン" />
+                    <p>モットー</p>
+                  </a>
+                </div>
+
+                <!-- 空ボタンエリア -->
+                <div id="dummy-button" class="anchor-button">
+                  <a>
+                    <img src="./images/Button/button01.png" alt="ボタン" />
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- トレードマークの紹介 -->
+            <div id="trademark-area">
+              <h4>トレードマークの紹介</h4>
+              <div id="trademark-description">
+                <div id="trademark-image">
+                  <img src="./images/TradeMark/TradeMark01.png" alt="トレードマーク" />
+                </div>
+                <div id="trademark-explain">
+                  <p>全体の「Ｍ」の文字形は、「ミカゲITラボ」の頭文字から採りました。<br>
+                    矢印は、自他共に栄え、また知識や技能の「向上」を表現してます。「緑」は創業者が学びに励んだ神戸のシンボルカラーであり、「青」は社会に立った横浜のシンボルカラーです。また、事業所を横浜に構え、サテライトを神戸に構えたことにもちなんでます。<br>
+                    そして、ロゴの容貌は、神戸の街から「六甲」の全景を眺めたものであり、企業理念をイワヲとして守り抜くことを誓ったものです。</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./top.html">トップ</a></p>
+                <p><a href="./company.html">会社紹介</a></p>
+                <p><a href="./services.html">サービス説明</a></p>
+                <p><a href="./aboutus.html">About US</a></p>
+                <p><a href="./inquiry.html">お問い合わせ</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <title>ミカゲＩＴラボ ｜会社紹介</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボの会社紹介です。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+<!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/company.css">
+
+    <!-- カルーセル用 -->
+    <!-- slickの読み込み -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  </head>
+
+  <body>
+
+    <!-- ヘッダー -->
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./top.html">トップ</a>
+        <a href="./company.html">会社紹介</a>
+        <a href="./services.html">サービス説明</a>
+        <a href="./aboutus.html">About US</a>
+        <a href="./inquiry.html">お問い合わせ</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./company.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">会社紹介</a>
+        <a class="menu" href="./services.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">サービス説明</a>
+        <a class="menu" href="./aboutus.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">About
+          US</a>
+        <a class="menu" href="./inquiry.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">お問い合わせ</a>
+      </nav>
+
+    </header>
+
+<!-- ************************** -->
+<!-- ページ説明本体             -->
+<!-- ************************** -->
+<!-- 説明部分本体（会社紹介ページ） -->
+
+    <main>
+      <article>
+
+        <!-- カルーセル -->
+        <section id="carousel-section">
+          <div id="pc-carousel">
+            <div class="carousel">
+              <!-- １枚目 -->
+              <div>
+                <div id="img-pc">
+                  <div class="main-visual">
+                    <img src="./images/ThemaPhotos/ExplainCompany.png" alt="メインビジュアル">
+                    <h1>会社紹介</h1>
+                    <p>私たちはどういう会社なのかを<br>そして<br>何を想い、どこへ向かうのかについて<br>お話しします</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ２枚目 -->
+              <div class="carousel-area">
+                <div id="img-pc-02">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#profile-point"><img src="./images/ThemaPhotos/ExplainCompany.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#profile-point"><img src="./images/Page-company/Pic01-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>会社のプロフィール</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ３枚目 -->
+              <div>
+                <div id="img-pc-03">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#new-IT-way-point"><img src="./images/ThemaPhotos/ExplainCompany.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#new-IT-way-point"><img src="./images/Page-company/Pic02-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>新たなITのありかた</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ４枚目 -->
+              <div>
+                <div id="img-pc-04">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#our-dream-point"><img src="./images/ThemaPhotos/ExplainCompany.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#our-dream-point"><img src="./images/Page-company/Pic03-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>私たちの夢の実現</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ５枚目 -->
+              <div>
+                <div id="img-pc-05">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#philosophy-point"><img src=" ./images/ThemaPhotos/ExplainCompany.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#philosophy-point"><img src=" ./images/Page-company/Pic04-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>企業理念</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ６枚目 -->
+              <div>
+                <div id="img-pc-06">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#future-point"><img src=" ./images/ThemaPhotos/ExplainCompany.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#future-point"><img src=" ./images/Page-company/Pic05-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>将来年表</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div id="sp-carousel">
+            <div class="carousel">
+              <!-- １枚目 -->
+              <div>
+                <div id="img-sp">
+                  <div class="main-visual">
+                    <img src="./images/ThemaPhotos/ExplainCompanySP.png" alt="メインビジュアル">
+                    <h1>会社紹介</h1>
+                    <p>私たちはどういう会社なのかを<br>そして<br>何を想い、どこへ向かうのかについて<br>お話しします</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ２枚目 -->
+              <div class="carousel-area">
+                <div id="img-sp-02">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#profile-point"><img src="./images/ThemaPhotos/ExplainCompanySP.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#profile-point"><img src="./images/Page-company/Pic01-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>会社のプロフィール</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ３枚目 -->
+              <div>
+                <div id="img-sp-03">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#new-IT-way-point"><img src="./images/ThemaPhotos/ExplainCompanySP.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#new-IT-way-point"><img src="./images/Page-company/Pic02-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>新たなITのありかた</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ４枚目 -->
+              <div>
+                <div id="img-sp-04">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#our-dream-point"><img src="./images/ThemaPhotos/ExplainCompanySP.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#our-dream-point"><img src="./images/Page-company/Pic03-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>私たちの夢の実現</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ５枚目 -->
+              <div>
+                <div id="img-sp-05">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#philosophy-point"><img src=" ./images/ThemaPhotos/ExplainCompanySP.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#philosophy-point"><img src=" ./images/Page-company/Pic04-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>企業理念</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ６枚目 -->
+              <div>
+                <div id="img-sp-06">
+                  <div class="carousel-plate">
+                    <div class="image-area-01">
+                      <a href="./company.html#future-point"><img src=" ./images/ThemaPhotos/ExplainCompanySP.png"
+                          alt="メインビジュアル" /></a>
+                    </div>
+                    <div class="image-area-02">
+                      <a href="./company.html#future-point"><img src=" ./images/Page-company/Pic05-Company.png"
+                          alt="プロフィールの絵" /></a>
+                    </div>
+                    <div class="title-area">
+                      <p>将来年表</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ページ内での説明本体 -->
+        <!-- 会社のプロフィール -->
+        <section id="company-profile">
+          <div id="main-description">
+
+            <!-- 会社のプロフィール -->
+            <div id="profile" class="left-mention">
+              <a id="profile-point"></a>
+              <h3>会社のプロフィール</h3>
+              <div class="description-area">
+                <p>
+                  私たちはITの世界で「ソフトウェアを作る」ことにより、みなさまへITのサービスや製品を提供いたします。<br>
+                  その制作は、私たちのリモート・オフィスを中心とした活動で実現してまいります。<br><br>
+
+                  提供するサービスとしては、WebページやWebサイトの制作などを承ります。<br>
+                  さらに、私たちが「サービス説明」のページで上げていますWebだけに限らないシステムの製作や、お客様が求めるITサービスを準備するお手伝い、 IT製作活動自身の高度化など、ご要望に合わせサービスを提供します。<br><br>
+
+                  ミカゲITラボとしてサービスの提供をはじめるまでに、すでに40年近くの年月をかけて多くのITサービスをみなさまへ提供してまいりました。<br>
+                  パーソナル・コンピュータの出現、インターネットによる情報サービスの爆発的拡大、Web検索やソーシャル・ネットワーキング・サービスの出現による情報サービスの大衆化、いまではITは新たな仮想空間から様々なサービスを提供しすることを始めて、みなさまの日常生活の中において不可欠なものになってきています。<br><br>
+
+                  私たちはこれらの出現に立ち会い、これらの発展をリアルタイムで手伝ってまいりました。<br>
+                  私たちの強みは、ソフトウェア・アプリケーション制作と、そのアプリケーション基盤の発展に長く携わて来た歴史にあります。<br>
+                  みなさまに提供するサービスは、この長年の経験と技術に裏打ちされたものです。
+                </p>
+              </div>
+              <div class="partition">
+                <p>　</p>
+              </div>
+              <div class="image-area">
+                <img target="img-profile" src="./images/Page-company/Pic01-Company.png" atl="プロフィールの画">
+              </div>
+            </div>
+            <!-- 先頭に戻る -->
+            <div class="retuen-top"><a href="./company.html"><span
+                  style="text-decoration:underline;">先頭に戻る</span></a></div>
+
+            <!-- 新たなITのありかた-->
+            <div id=" new-IT-way" class="right-mention">
+              <a id="new-IT-way-point"></a>
+              <h3>新たなITのありかた</h3>
+              <div class="image-area">
+                <img target="img-profile" src="./images/Page-company/Pic02-Company.png" atl="プロフィールの画">
+              </div>
+              <div class="partition">
+                <p>　</p>
+              </div>
+              <div class="description-area">
+                <p>
+                  「ソフトウェアを作る」と述べましたが、みなさまが求める「アプリケーション」を単に作るだけではなく、その「アプリケーション」がなぜ必要とされているのか、どのように使いたいのかを明らかにしていくことが重要なことと考えています。<br><br>
+                  そこに私たちの夢があり、この企業活動を始めようとした理由があります。<br><br>
+                  現在行われているような「ITの仕組みありき」で考えるのではなく、まず「我々は何をしたいのか、どのようにしたいのか、どのようになりたいのか」を考え、「ITの仕組み」の在り方や使い方を人間の方へ合わせていくこと。<br><br>
+                  我々がどうしたいかありきで、人間本位でITのありかたを考える。<br>
+                  ITが素直に使えるものにするために、必要であればITがそうなるように私たちはITを創りなおします。<br>
+                  私たちは単なる製造者ではなく、お客様とともに新しいITがあるべき世界への探究者でありつづけたいと考えました。
+                </p>
+              </div>
+            </div>
+            <!-- 先頭に戻る -->
+            <div class="retuen-top"><a href="./company.html"><span style="text-decoration:underline;">先頭に戻る</span></a></div>
+
+            <!-- 私たちの夢の実現 -->
+            <div id="our-dream" class="left-mention">
+              <a id="our-dream-point"></a>
+              <h3>私たちの夢の実現</h3>
+              <div class="description-area">
+                <p>
+                  ITが人間的であるためには、人間の考え方や行動のやり方の方にITを合わせる。そしてITは私たちの日常生活になじんで自然にそこに「ある」べきものだと考えました。<br><br>
+                  ただ、ITの機械的な仕掛けは人類の長年の英知の結集であります。ハードウェアというくくりだけ見ても簡単に創りなおせるものではないと考えています。<br>
+                  そこでわたしたちが長けている、ソフトウェアの工夫でハードウェアの人間的ではない面を包み隠し、私たちの生活に差しさわりがないように溶け込ませるための工夫を凝らしていきたいと考えています。<br><br>
+                  この実現を考えたときに、多くの人々の英知を集めて、より人間的なITの仕組みを創り出す。出来上がった恩恵を多くの人々に流布して多くの方々から支持を得る。<br>
+                  そのためには、一個人の力だけではなく会社という形で実現することを考えました。
+                </p>
+              </div>
+              <div class="partition">
+                <p>　</p>
+              </div>
+              <div class="image-area">
+                <img target="img-profile" src="./images/Page-company/Pic03-Company.png" atl="プロフィールの画">
+              </div>
+            </div>
+            <!-- 先頭に戻る -->
+            <div class="retuen-top"><a href="./company.html"><span style="text-decoration:underline;">先頭に戻る</span></a></div>
+
+            <!-- 企業理念 -->
+            <div id="philosophy" class="right-mention">
+
+              <!-- ジャンプの突入点 -->
+              <a id="philosophy-point"></a>
+              <h3>企業理念</h3>
+              <div class="image-area">
+                <img target="img-profile" src="./images/Page-company/Pic04-Company.png" atl="プロフィールの画">
+              </div>
+              <div class="partition">
+                <p>　</p>
+              </div>
+              <div class="description-area">
+                <p>
+                  ここままで述べたことを実現するために、私たちは様々なことに素直に応える必要があると考えました。<br>
+                  そこで私たちは興す会社の理念としてつぎの４つを掲げます。
+                </p>
+                <a id="philosophy-point-01"></a>
+                <h4 class="h4-philosophy">◆信用と信頼を貫く</h4>
+                <p class="p-philosophy">私たちは皆様との関係や活動で、また皆様へ提供する成果で、その信用を常に保ち、信頼を常に向上させることを第一義とします。</p>
+                <h4 class="h4-philosophy">◆正しいことを提供する</h4>
+                <p class="p-philosophy">すべての事柄の原因と結果について、またそれが生じる真の過程について。私たちはそこにある真理を常に思索し探求しつづけ、自らの意識と行動を高めていきます。<br>そして、そこで見いだした成果を皆様に還元します。</p>
+                <h4 class="h4-philosophy">◆先を知り、主流を成す</h4>
+                <p class="p-philosophy">それが意味のある先端であることを見極め、そこにある知識や技術を理解して、その活用の着想に長けるための技量を磨きます。<br>その知見から得られた成果から、先取なサービスを創造するとともに、そこで創り出したものを未来の主流とするための努力を惜しみません。
+                </p>
+                <h4 class="h4-philosophy">◆倫理を堅持する</h4>
+                <p class="p-philosophy">道理や規範を熟慮して人類普遍な倫理を追求します。<br>そして私たちは自重して、その倫理に従い企業活動を行ないます。</p>
+              </div>
+            </div>
+            <!-- 先頭に戻る -->
+            <div class="retuen-top"><a href="./company.html"><span style="text-decoration:underline;">先頭に戻る</span></a></div>
+
+            <!-- 将来年表 -->
+            <div id="fiture" class="left-mention">
+              <a id="future-point"></a>
+              <h3>将来年表</h3>
+              <div class="description-area">
+                <p>私たちはこの夢の実現のために３つの成長段階を計画しました。</p>
+                <h4 class="h4-future">創業期：</h4>
+                <p class="p-future">目的の実現のため会社が短期でIT分野で成長し存在感を示せるように、最初に述べた「Web開発」に活動の主流をおくことにしました。<br>ただIT分野は"光速"で進歩しますので、私たちが取り残されないようにWeb技術以外についても仕事として取り組むことを上げています。
+                </p>
+                <h4 class="h4-future">開発期：</h4>
+                <p class="p-future">ITが人間と素直に関わりあうための技術や技法を創造する期です。<br>新たなことを創るためには少人数で練り上げることがよい進め方であることを経験的に感じています。<br>そのためこの期では積極的に企業活動の拡大は予定はしていません。<br>ただこの期の考慮に盛り込むことは、前の創業期に比べて製造活動から研究・創作活動にシフトするので利潤の確保に工夫が必要になります。この期の計画においてはこの点を考慮に入れます。
+                </p>
+                <h4 class="h4-future">製造期：</h4>
+                <p class="p-future">人間と関わりあう新たな技術や技法を世の中に提供する期です。<br>広範に頒布するために企業活動を拡大します。<br>新たに創った技術の展開方法は、サービスや関連商品の製造と販売、また、技術展開のための媒体を利用した情報展開を行います。
+                </p>
+                <br><p>さらにこのあともう１期を企業活動に追加します。</p>
+                <h4 class="h4-future">企業活動の終了期：</h4>
+                <p class="p-future"> 理論や技法の改良に対して製造・販売活動の展開戦略が合わなくなるでしょう。<br>また、創造した文化を発展・成熟させるためには、もう一度熟考する必要が出てくるはずです。<br>それを行うために製造・販売活動を第三者に譲って企業活動を終了します。<br>私たちが創出した理論や技法は企業活動の終了時に分離して、別の活動主体に移して引き続き改良していきます。
+                </p>
+              </div>
+              <div class="partition">
+                <p>　</p>
+              </div>
+              <div class="image-area">
+                <img target="img-profile" src="./images/Page-company/Pic05-Company.png" atl="プロフィールの画">
+              </div>            </div>
+            <!-- 先頭に戻る -->
+            <div class="retuen-top"><a href="./company.html"><span style="text-decoration:underline;">先頭に戻る</span></a></div>
+
+          </div>
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./top.html">トップ</a></p>
+                <p><a href="./company.html">会社紹介</a></p>
+                <p><a href="./services.html">サービス説明</a></p>
+                <p><a href="./aboutus.html">About US</a></p>
+                <p><a href="./inquiry.html">お問い合わせ</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <!-- JQuery読み込み -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  <!-- slickの読み込み -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>

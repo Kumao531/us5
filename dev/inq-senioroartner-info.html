@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ミカゲＩＴラボ ｜About US | 代表プロフィール</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボの代表のプロフィールです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/inq-seniorpartner.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./aboutus.html#return-point">戻る</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./aboutus.html#return-point"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">戻る</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（代表プロフィール紹介ページ） -->
+
+    <main>
+
+      <article>
+
+        <!-- 代表プロフィール -->
+        <section id="main-description">
+
+          <div id="information-area">
+
+            <h3>代表</h3>
+
+            <!-- プロフィール -->
+            <div id="pirofile-info">
+
+              <!-- 名前 -->
+              <dev id="name">
+                <p id="name-kanji">有吉　泰介</p>
+                <p id="name-kana">ありよし　　たいすけ</p>
+              </dev>
+
+              <!-- 略歴 -->
+              <div id="short-biography">
+                <h3>略歴</h3>
+                <!-- 記述 -->
+                <div id="bio-description">
+                  <div id="portrait">
+                    <img src="./images/Page-aboutus/t-ariyoshi.jpg" alt="代表像" />
+                  </div>
+                  <div id="describe">
+                    <p>大阪大学大学院基礎工学研究科で情報工学を学ぶ。工学修士。<br>
+                    IT界のノーベル賞であるシャノン賞を受賞した<a href="https://ja.wikipedia.org/wiki/%E5%B5%A9%E5%BF%A0%E9%9B%84"><span style="font-weight:600;color:mediumblue;">嵩忠雄教授</span></a>に
+                    師事し、業務仕様が記述しきれない未完成なシステムでも動かせる、仮想コンピュータ、OS、基盤ソフトウェア、アプリケーションの全層を実装。<br>
+                    この分野で世界初の商用システムを稼働させる。</p>
+
+                    <p>株式会社野村総合研究所に入社。</p>
+
+                    <p>証券、生命保険、自動車販売等の営業活動を支援するシステムコンサルティングに就く。</p>
+                    <p>システム基盤技術者として、日本初となる大規模広域の商用クライアント・サーバー構築プロジェクトで、
+                      サーバーのアプリ基盤開発に参画。</p>
+                    <p>システム構築の標準化技術者として、証券、信託、生保、損保、流通、産業、公共を同じ設計コンセプトで
+                      構築する、アプリ部品とそれを用いるソフトウェア・フレームワークを開発。<br>
+                      そのソフトウェアの仕組みを用いながらシステムを自動生成するプロダクトを企画、製造、展開を行う。<br></p>
+                    <p>その後、商用システム構築のリーダー兼テクニカルエンジニアを務める。</p>
+                    <ul>
+                      <li>世界二位の広告代理店日本法人の広告制作支援システム</li>
+                      <li>業界五位の商用機器販売商社の主幹商品の全国稼働監視システム</li>
+                      <li>業界首位の信託会社の投資信託約定システム</li>
+                      <li>労働省管轄下の労働人材斡旋システム</li>
+                      <li>厚生省管轄下の看護師斡旋システム</li>
+                      <li>業界五位の建設デベロッパーの全国開発拠点用の可搬型分散会計システム</li>
+                    </ul>
+
+                    <p>エネルギー業界首位と五位の合併において、統合するブランドカードとクレジットカードの精算に関し、
+                      新会社の業務設計とシステムの基本設計を担当。<br>この業務を主幹するシステムの構築マネージャを務める。</p>
+
+                    <p>本社機構、人材開発部門においてグループ会社を含め初任から三年次までのSIer教育主任を担当。</p>
+
+                    <p>本社機構、品質監理部門においてグループ会社を含め全社のSIerが遵守すべき、システム構築活動のプロセスの枠組み(フレームワーク)を開発し、全社規定としてその維持を務める。</p>
+
+                    <p>東京大学松尾研究室の学外研究機関で機械学習とニューラルネットワークを学ぶ。<br>機械学習システムの開発/実行基盤を開発。</p>
+
+                    <p>その後退職し、自ら会社を興すことを決意する。</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div id="shokureki">
+                <h3>職歴</h3>
+                <p>※ ▶をクリックすると詳細が見れます（掲載は履歴をさかのぼっています）</p>
+                <div class="meisai">
+                  <details>
+                    <summary>教育事業の企画</summary>
+                    <img src="./project/MyWorkings-01.png" alt="教育事業の企画立案" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>AIによるシステム改修工数予測の精度更新</summary>
+                    <img src="./project/MyWorkings-02.png" alt="AIによるシステム改修工数予想精度の更新" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>AI機械学習プラットフォームの構築</summary>
+                    <img src="./project/MyWorkings-03.png" alt="AI機械学習環境の開発" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>超大規模システム構築を行えるSIerの教育</summary>
+                    <img src="./project/MyWorkings-04.png" alt="超大規模システム構築を行えるSIerの教育" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>グループ社員14,000名が順守すべきシステム開発プロセスの社内規定を策定</summary>
+                    <img src="./project/MyWorkings-05.png" alt="グループ社員14,000名が順守すべきシステム開発プロセスの社内規定を策定" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>野村総研の新任～３年次SIer教育の主任責任者</summary>
+                    <img src="./project/MyWorkings-06.png" alt="野村総研の新任～３年次SIer教育の主任責任者" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>システム構築成熟度のCMMI Level 2対応</summary>
+                    <img src="./project/MyWorkings-07.png" alt="システム構築成熟度のCMMI Level 2対応" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>商用Javaライブラリ集の開発責任者</summary>
+                    <img src="./project/MyWorkings-08.png" alt="商用Javaライブラリ集の開発責任者" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>エネルギー業界首位と五位合併時：クレジット業務の設計と処理システムの構築マネージャ</summary>
+                    <img src="./project/MyWorkings-09.png" alt="エネルギー業界首位と五位合併時：業務設計、クレジット・システムの開発マネージャ" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>建設デベロッパー五位：可搬型会計システムのプロジェクト完遂責任者</summary>
+                    <img src="./project/MyWorkings-10.png" alt="建設デベロッパー五位：可搬型会計システムのプロジェクト完遂責任者" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>ビジネス機器商社五位：主幹商品の全国監視システムの開発・保守リーダー</summary>
+                    <img src="./project/MyWorkings-11.png" alt="ビジネス機器商社五位：主幹商品の全国監視システムの開発・保守リーダー" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>世界２位広告代理店の日本法人：広告制作提案システムのＰＯＣ技術支援リーダー</summary>
+                    <img src="./project/MyWorkings-12.png" alt="世界２位広告代理店の日本法人：広告制作提案システムのＰＯＣリーダー" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>小売スーパー首位：2000年問題対応のシステム改修プロジェクトマネージャ</summary>
+                    <img src="./project/MyWorkings-13.png" alt="小売スーパー首位：2000年問題のシステム改修プロジェクトマネージャ" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>労働省管轄下の人材斡旋機構：シェア80%の全業務を支援するプロダクトの新製品開発リーダー</summary>
+                    <img src="./project/MyWorkings-14.png" alt="労働省管轄下の人材斡旋機構：シェア80%の全業務を支援するプロダクトの新製品開発リーダー" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>厚生省管轄下の人材斡旋機構：看護人材斡旋のシステム刷新開発のRDBデータ移行責任者</summary>
+                    <img src="./project/MyWorkings-15.png" alt="厚生省管轄下の人材斡旋機構：看護人材斡旋のシステム刷新開発のRDBデータ移行責任者" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>証券会社首位：投資信託の売買と約定を管理する機能のダウンサイジングと高速化を実現する技術開発リーダー</summary>
+                    <img src="./project/MyWorkings-16.png" alt="証券会社首位：投信の売買と約定を管理する機能のダウンサイジングと高速化を実現する技術開発リーダー" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>証券界、生保・損保界、流通小売業界、非製造産業界、公共など、同一のコンセプトでシステム構築を行える開発基盤を創案。<br>　プロジェクトの企画・開発・展開の責任者、商用プロダクトオーナー</summary>
+                    <img src="./project/MyWorkings-17.png" alt="証券界、生保・損保界、流通小売業界、非製造産業界、公共など、同一のコンセプトでシステム構築を行える開発基盤を創案。プロジェクトの企画・開発・展開の責任者、商用プロダクトオーナー" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>日本初の商用広域クライアント・サーバー基盤の開発において、サーバー機のアプリ基盤を開発するテクニカルエンジニア</summary>
+                    <img src="./project/MyWorkings-19.png" alt="日本初の商用広域クライアント・サーバー基盤の開発において、サーバー機のアプリ基盤を開発するテクニカルエンジニア" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>業界や業界大手への営業支援コンサルテーションにおいて、実証実験システムの設計・開発を担当
+                    </summary>
+                    <img src="./project/MyWorkings-20.png" alt="業界や業界大手への営業支援コンサルテーションにおいて、実証実験システムの設計・開発を担当" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>関西某地銀：融資審査部門へ「未完な業務仕様でも動作できるシステム」を稼働させる。IT学術分野で世界初の実用商用システムとなる
+                    </summary>
+                    <img src="./project/MyWorkings-21.png" alt="関西某地銀：融資審査部門へ「未完な業務仕様でも動作できるシステム」を稼働させる。IT学術分野で世界初の実用商用システムとなる" />
+                  </details>
+                </div>
+                <div class="meisai">
+                  <details>
+                    <summary>（その他）知的資産流通を目的とした汎用蓄積モデルを制定するための国際規格へ参画（手弁当）</summary>
+                    <div id="kosokoso">オブジェクト指向の国際団体ＯＭＧ（Object Management Group、 UMLやBPMなどの規格を行っているところ）のＲＡＳ（Reusable Asset Specification）規格化に参画。<br>日本側での規格の後半部分をともに草案したEJBコンソーシアムのワーキンググループの皆様に感謝します。<br>会社はＯＭＧを脱会して非会員だったから手弁当でした...<br>
+                    <a href="https://xtech.nikkei.com/it/article/COLUMN/20061106/252690/">
+                      <spam>【上級】ソフトウエア再利用の標準規格「RAS」を理解する　前編</spam>
+                    </a><br>
+                    <a href="https://xtech.nikkei.com/it/article/COLUMN/20061106/252671/">
+                      <spam>【上級】ソフトウエア再利用の標準規格「RAS」を理解する　後編</spam>
+                    </a></div>
+                  </details>
+                </div>
+              </div>              </div>
+
+              <!-- 資格・技能 -->
+              <a id="skill-return"></a>
+              <div id="skill">
+                <h3>資格・技能</h3>
+
+                <a href="./inq-skill-info.html"><spam id="skill-explaine">こちらを参照ください。</spam></a>
+
+              </div>
+              <!-- 趣味 -->
+              <div id="taste">
+                <h3>趣味</h3>
+                <div>
+                  <div id="hobby-description">
+                    <p>ロック音楽鑑賞、ウォーキング、コーヒードリップ、食べ歩き、文房具コレクター</p>
+                    <p>ラグビーフットボールは高校時代に県大会で準優勝。大学進学時も続ける。<br>
+                      近くはマスターズ花園2023に出場する。</p>
+                </div>
+                  <div id="hanazono">
+                    <img src="./images/Page-aboutus/syumi_hanazono.jpg" alt="ラグビー選手" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./aboutus.html#return-point">戻る</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>

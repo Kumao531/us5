@@ -1,0 +1,164 @@
+/****************************************************/
+/* PC用スタイル                                     */
+/****************************************************/
+
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+    color:#7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #7c7c7c;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto 1.5rem auto;
+    padding-bottom: 1.0rem;
+/*    background-color:lightblue;*/
+  }
+    #information-area > h3 {
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+  }
+
+  #office-info {
+    display: block;
+    margin-left: 2.0rem;
+  }
+
+  .office {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  .label > h4 {
+    margin: 0;
+    padding: 1.5rem 0 0.5rem 0;
+  }
+  .label > h4::after {
+    position: relative;
+    top: -0.5rem;
+    content: url("../images/Border/blueLine01.png");
+    margin-left: 1.0rem;
+    vertical-align: top;
+    opacity: 0.4;
+  }
+
+  .address {
+    margin: 0;
+    padding-bottom: 0.5rem
+  }
+  .address > p {
+    margin: 0 0 0 2.0rem;
+    padding: 0 0;
+    line-height: 1.8rem;
+  }
+
+  /* フッター高さ調整 */
+  #footer-belt-pc {
+    height: 22rem;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color: #7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    color: #7c7c7c;
+  }
+
+  /* コンテンツ主部 */
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 1.0rem;
+/*    background-color:lightblue;*/
+  }
+  #information-area > h3 {
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+  }
+
+  #office-info {
+    display: block;
+    margin-left: 1.0em;
+  }
+
+  .office {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-bottom: 1.0rem;
+  }
+
+  .label > h4 {
+    margin: 1.0rem 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .label > h4::after {
+    position: relative;
+    top: -0.35rem;
+    content: url("../images/Border/blueLine02.png");
+    margin-left: 1.0rem;
+    vertical-align: top;
+    opacity: 0.4;
+  }
+
+  .address {
+    margin-top: 0.2rem;
+    padding-bottom: 0.7rem
+  }
+  .address > p {
+    margin: 0 0 0 1.0rem;
+    padding: 0.4rem 1.0rem 0 0;
+    line-height: 1.2rem;
+  }
+
+  /* フッター高さ調整 */
+  #footer-belt-pc {
+    height: 27.5rem;
+  }
+
+}

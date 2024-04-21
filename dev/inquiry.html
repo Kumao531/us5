@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ミカゲＩＴラボ ｜お問合せ</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボのお問合せです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/inquiry.css">
+
+    <!-- JQueryの読み込み -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- JQuery validationEngineの読み込み -->
+    <!-- 参照資料：https://www.omakase.net/blog/2020/10/validationengine.html -->
+    <!--
+    <link rel="stylesheet" href="./css/validationEngine.jquery.css">
+    <script src="./js/jquery.validationEngine.js"></script>
+    <script src="./js/languages/jquery.validationEngine-ja.js" charset="UTF-8"></script>
+    -->
+
+  </head>
+
+  <body>
+
+    <!-- ヘッダー -->
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./top.html">トップ</a>
+        <a href="./company.html">会社紹介</a>
+        <a href="./services.html">サービス説明</a>
+        <a href="./aboutus.html">About US</a>
+        <a href="./inquiry.html">お問い合わせ</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./company.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">会社紹介</a>
+        <a class="menu" href="./services.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">サービス説明</a>
+        <a class="menu" href="./aboutus.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">About
+          US</a>
+        <a class="menu" href="./inquiry.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">お問い合わせ</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（会社紹介ページ） -->
+
+    <main>
+
+      <article>
+
+        <!-- お問合せ -->
+        <section>
+          <div id="inquiry-area">
+
+            <h2>お問合せ</h2>
+
+            <form>
+
+              <!-- 名前 -->
+              <div id="name" class="oneline-query">
+                <div class="label">
+                  <p>お名前 <spam style="font-size: x-small;">【全角】</spam><spam class="empasis-phrase"> 必須</spam>：</p>
+                </div>
+                <div class="query">
+                  <input id="username-obj" type="text" name="username" size="12" placeholder="入力してください..." class="contact-textbox" />
+                </div>
+              </div>
+
+              <!-- 性別 -->
+              <div id="sex" class="manyline-query area-top-margin">
+                <div class="label">
+                  <p>性別<spam class="empasis-phrase"> 必須</spam>：</p>
+                </div>
+                <div class="query">
+                  <label><input type="radio" name="sex" value="male">男性　</label>
+                  <label><input type="radio" name="sex" value="female">女性　</label>
+                  <label><input type="radio" name="sex" value="other">その他　</label>
+                </div>
+              </div>
+
+              <!-- 電話番号 -->
+              <div id="tel" class="oneline-query">
+                <div class="label">
+                  <p>電話番号：</p>
+                </div>
+                <div class="query">
+                  <input id="telephone-no" type="text" name="tel-no" size="13"  class="contact-textbox" placeholder="090-1234-5678" />
+                </div>
+              </div>
+
+              <!-- 電子メール -->
+              <div id="mail" class="oneline-query">
+                <div class="label">
+                  <p>電子メール<spam class="empasis-phrase"> 必須</spam>：</p>
+                </div>
+                <div class="query">
+                  <input id="mail-object" type="text" name="email" size="28"  class="contact-textbox" placeholder="username@example.com" />
+                </div>
+              </div>
+
+              <!-- どこで知りました？ -->
+              <div id="where" class="manyline-query area-top-margin">
+                <div class="label">
+                  <p>どこでミカゲＩＴラボを知りましたか？<spam class="empasis-phrase"> 1つ以上選択</spam></p>
+                </div>
+                <!-- PC用表示 -->
+                <div class="pc-query query area-top-margin">
+                  <div class="select-query">
+                    <label><input type="checkbox" name="whereis" value="家族">家族から　　</label>
+                    <label><input type="checkbox" name="whereis" value="知人">知人から　　</label>
+                    <label><input type="checkbox" name="whereis" value="クチコミ">クチコミから</label>
+                  </div>
+                  <div class="select-query">
+                    <label><input type="checkbox" name="whereis" value="ネット検索">ネットを検索して　</label>
+                    <label><input type="checkbox" name="whereis" value="ネット記事">ネットの記事から　</label>
+                    <label><input type="checkbox" name="whereis" value="SNS">SNSで見かけた　</label><br>
+                    <label><input type="checkbox" name="whereis" value="他サイト">ほかのサイトで知った</label>
+                  </div>
+                  <div class="select-query">
+                    <label><input type="checkbox" name="whereis" value="雑誌">雑誌で見た　　</label>
+                    <label><input type="checkbox" name="whereis" value="ネット広告">インターネット広告　　</label>
+                    <label><input type="checkbox" name="whereis" value="ダイレクト">ダイレクト・メール</label>
+                  </div>
+                </div>
+                <!-- スマフォ用表示 -->
+                <div class="sp-query query">
+                  <div class="select-query">
+                    <label><input type="checkbox" name="whereis" value="家族">家族から　　</label>
+                    <label><input type="checkbox" name="whereis" value="知人">知人から</label><br>
+                    <label><input type="checkbox" name="whereis" value="クチコミ">クチコミから　</label>
+                    <label><input type="checkbox" name="whereis" value="ネット検索">ネットを検索して</label><br>
+                    <label><input type="checkbox" name="whereis" value="ネット記事">ネットの記事から　</label>
+                    <label><input type="checkbox" name="whereis" value="SNS">SNSで見かけた</label><br>
+                    <label><input type="checkbox" name="whereis" value="他サイト">ほかのサイトで知った　</label>
+                    <label><input type="checkbox" name="whereis" value="雑誌">雑誌で見た</label><br>
+                    <label><input type="checkbox" name="whereis" value="ネット広告">インターネット広告</label><br>
+                    <label><input type="checkbox" name="whereis" value="ダイレクト">ダイレクト・メール</label>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- お問い合わせの種類 -->
+              <div id="sort" class="manyline-query">
+                <div class="label area-top-margin">
+                  <p>お問い合わせの種類<spam class="empasis-phrase"> 必須</spam>：</p>
+                </div>
+                <div class="query area-top-margin">
+                  <select id="inquiry-purpose" name="inquiry-purpose">
+                    <option value="問合せ">お問い合わせ</option>
+                    <option value="要望">ご要望</option>
+                    <option value="意見">ご意見</option>
+                    <option value="感想">ご感想</option>
+                    <option value="その他">その他</option>
+                  </select>
+                </div>
+                <div id="purpose-other" class="label">
+                  <p>「その他」を選ばれたときにはご入力ください<spam class="empasis-phrase"> 40文字以内</spam></p>
+                </div>
+                <div class="query">
+                  <input id="other-inquiry-object" type="text" name="other-inquiry" size="40"  class="contact-textbox" placeholder="その他お問合せの目的..." />
+                </div>
+              </div>
+
+              <!-- お問い合わせの内容 -->
+              <div id="query-content" class="manyline-query">
+                <div class="label">
+                  <p>【お問い合わせの内容】<spam class="empasis-phrase">必須　800文字以内</spam></p>
+                </div>
+                <div class="query area-top-margin">
+                    <textarea id="contact-textarea" placeholder="ご記入ください..." name="inquiry-message" maxlength="800" rows="15" ></textarea>
+                </div>
+              </div>
+
+              <!-- 問合せ送信ボタン -->
+              <div class="send-btn">
+                <input id="submit" type="image" src="./images/Button/button-send-noactive.png" alt="送信ボタン" />
+              </div>
+
+            </form>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./top.html">トップ</a></p>
+                <p><a href="./company.html">会社紹介</a></p>
+                <p><a href="./services.html">サービス説明</a></p>
+                <p><a href="./aboutus.html">About US</a></p>
+                <p><a href="./inquiry.html">お問い合わせ</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+      </footer>
+
+    </main>
+
+    <!-- JQuery読み込み --><!--
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <!-- JQueryのvalidationの読み込み -->
+
+    <!-- 入力チェック用JavaScript読み込み -->
+    <script src="./js/inquiry.js"></script>
+
+  </body>
+
+</html>

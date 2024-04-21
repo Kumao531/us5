@@ -1,0 +1,168 @@
+/****************************************************/
+/* PC用スタイル                                     */
+/****************************************************/
+
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+    color:#7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #7c7c7c;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 2.0rem;
+/*    background-color:lightblue;*/
+  }
+  #information-area > h3 {
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+  }
+
+  #environ-info {
+    display: block;
+    margin-left: 2.0rem;
+  }
+
+  #description {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding-left: 2.0rem;
+  }
+
+  #image-area {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    margin: 0;
+    padding-bottom: 1.0rem;
+  }
+  #image-area > img {
+    width: 100%;
+  }
+
+  .office {
+    display: block;
+  }
+  .office > h4 {
+    margin: 0;
+    padding: 1.0rem 0 0 0;
+  }
+
+  .environ {
+    display: block;
+    margin: 0;
+    padding-left: 2.0rem;
+  }
+  .environ > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8rem;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color: #7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    color: #7c7c7c;
+  }
+
+  /* コンテンツ主部 */
+
+  #information-area {
+    position: relative;
+    display: block;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto  auto;
+    padding-bottom: 2.0rem;
+/*    background-color:lightblue;*/
+  }
+  #information-area > h3 {
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+  }
+
+  #environ-info {
+    display: block;
+    margin-left: 0.5rem;
+  }
+
+  #description {
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding-left: 1.0rem;
+  }
+
+  #image-area {
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    margin: 0;
+    padding-bottom: 1.0rem;
+  }
+  #image-area > img {
+    width: 100%;
+  }
+
+  .office {
+    display: block;
+  }
+  .office > h4 {
+    margin: 0;
+    padding: 1.0rem 0 0 0;
+  }
+
+  .environ {
+    display: block;
+    margin: 0;
+    padding-left: 1.0rem;
+  }
+  .environ > p {
+    margin: 0;
+    padding: 0 0.5rem 0 0;
+    line-height: 1.4rem;
+  }
+
+}

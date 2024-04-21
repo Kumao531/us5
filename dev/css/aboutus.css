@@ -1,0 +1,207 @@
+/****************************************************/
+/* PC用スタイル                                     */
+/****************************************************/
+
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+    color:#7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #7c7c7c;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  #about-us-description {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 95%;
+  }
+
+  /* 各詳細ページへのアンカー */
+  #anchor-area {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto 0 auto;
+/*    background-color:#e7ffff;*/
+  }
+
+  #anchor-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+
+  /* 個々のボタン */
+  .anchor-button {
+    position: relative;
+    width: 40%;
+    min-width: 450px;
+    margin: 1.5rem auto 1.5rem auto ;
+  }
+  .anchor-button > a > img {
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .anchor-button > a > p {
+    position: absolute;
+    top: -0.25rem;
+    left: 2.0rem;
+    font-size: 1.3rem;
+    font-family: "Noto Sans JP";
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  /* 空表示ボタン */
+  #dummy-button > a > img {
+    opacity: 0.0;
+  }
+
+  /* トレードマークの説明 */
+  #trademark-description {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+  }
+
+  /*トレードマーク*/
+  #trademark-image {
+    width: 30%;
+  }
+  #trademark-image > img {
+    width: 80%;
+  }
+  /* 説明文 */
+  #trademark-explain {
+    width: 70%;
+  }
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color: #7c7c7c;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #100a0a;
+  }
+
+  #main-message > p {
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    color: #7c7c7c;
+    text-shadow: 1px 1px 1px #eaeaea;
+  }
+
+  /* コンテンツ主部 */
+
+  /* PC用とスマフォ用のご挨拶の切り替え */
+  #intro-pc {
+    display: none;
+  }
+  /*#intro-sp {
+    display: none;
+  }*/
+
+  #about-us-description {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 95%;
+  }
+
+  /* 各詳細ページへのアンカー */
+  #anchor-area {
+    width: 100%;
+    margin: 0 auto 0 auto;
+/*    background-color:#e7ffff;*/
+  }
+
+  #anchor-group {
+    display: block;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0.5rem;
+  }
+
+  /* 個々のボタン */
+  .anchor-button {
+    position: relative;
+    width: 80%;
+    margin: 0 auto 0 auto ;
+    padding: 1.5rem 0;
+  }
+  .anchor-button > a {
+    position: relative;
+    display: block;
+  }
+  .anchor-button > a > img {
+    width: 100%;
+    max-width: 285px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .anchor-button > a > p {
+    position: absolute;
+    top: -0.2rem;
+    left: 5.0rem;
+    font-size: 0.95rem;
+    font-family: "Noto Sans JP";
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  /* 空表示ボタン */
+  #dummy-button {
+    display: none;
+  }
+
+  /* トレードマークの説明 */
+  #trademark-description {
+    width: 100%;
+    margin: 0 auto 0 auto;
+/*    background-color:aquamarine;*/
+  }
+
+  /*トレードマーク*/
+  #trademark-image {
+    width: 35%;
+  }
+  #trademark-image > img {
+    width: 100%;
+  }
+  /* 説明文 */
+  #trademark-explain {
+    width: 100%;
+  }
+
+}

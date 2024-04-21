@@ -1,0 +1,253 @@
+@media screen and (min-width: 768px) {
+
+  /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 3rem;
+    color:#75e828;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #17820d;
+  }
+
+  #main-message > p {
+    line-height: 2.0rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:#75e828;
+    text-shadow:
+      0 1px 0 #eaeaea,
+      0 1px 2cm #17820d;
+  }
+
+  /* コンテンツ主部 */
+
+  h3 {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  h3::after {
+    content: url("../images/Border/blueLine01.png");
+    margin-left: 15px;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto 30px auto;
+  }
+
+  /* 額ボタンを張るボード */
+  #menu-board {
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 4.0rem auto 2.0rem auto;
+    background-color:lightgrey;
+  }
+
+  #menu-board > img {
+    z-index: 49;
+    width: 100%;
+    height: 28.5rem;
+    background-color:lightskyblue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  /* 額ボタンをまとめるFlexbox */
+  #menu-selection {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    justify-content: center;
+  }
+
+  #menu-selection > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* 額ひとつ一つの構成 */
+  .menu-button {
+    position: relative;
+    display: inline-flex;
+    z-index: 51;
+    width: 30%;
+    min-width: 200px;
+    margin: 2.0rem 2.0rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .menu-button > a > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-button > a > img {
+    width: 100%;
+  }
+
+  /* web開発 */
+  #web-dev > a > p,
+  #sys-dev > a > p {
+    position: absolute;
+    top: 2.0rem;
+    width: 100%;
+    font-family: "Noto Sans JP";
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  #prj-manage > a > p,
+  #consultation > a > p {
+    position: absolute;
+    top: 1.6rem;
+    width: 100%;
+    font-family: "Noto Sans JP";
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    text-align: center;
+  }
+
+  /* フッターの高さの調整 */
+  #footer-belt-pc {
+    height: 350px;
+  }
+
+
+}
+
+/****************************************************/
+/* スマートフォン用スタイル                         */
+/****************************************************/
+
+@media screen and (max-width: 767px) {
+
+    /* メインビジュアルに表示する文字の調整 */
+
+  #main-message > h1 {
+    font-size: 1.8rem;
+    color:#75e828;
+    text-shadow:
+      0 2px 0 #eaeaea,
+      0 2px 4px #17820d;
+  }
+
+  #main-message > p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color:#75e828;
+    text-shadow:
+      0 1px 0 #eaeaea,
+      0 1px 2cm #17820d;
+  }
+
+  /* コンテンツ主部 */
+
+  h3 {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  h3::after {
+    content: url("../images/Border/blueLine02.png");
+    margin-left: 15px;
+  }
+
+  #main-description {
+    position: relative;
+    display: block;
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+  }
+
+  /* 額ボタンを張るボード */
+  #menu-board {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 2.0rem auto 2.0rem auto;
+    background-color:lightgrey;
+  }
+
+  #menu-board > img {
+    z-index: 49;
+    width: 100%;
+    height: 58rem;
+    background-color:lightskyblue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  /* 額ボタンをまとめるFlexbox */
+  #menu-selection {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    top: 0;
+  }
+
+  #menu-selection > img {
+    width: 100%;
+  }
+
+  /* 額ひとつ一つの構成 */
+  .menu-button {
+    position: relative;
+    display: block;
+    z-index: 51;
+    width: 70%;
+    margin: 3rem auto 0 auto;
+  }
+
+  .menu-button > a {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
+
+  .menu-button > a > img {
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  /* web開発 */
+  #web-dev > a > p,
+  #sys-dev > a > p {
+    position: absolute;
+    top: 2.2rem;
+    width: 100%;
+    font-family: "Noto Sans JP";
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  #prj-manage > a > p,
+  #consultation > a > p {
+    position: absolute;
+    top: 2.1rem;
+    width: 100%;
+    font-family: "Noto Sans JP";
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    text-align: center;
+  }
+
+  /* フッター高さ調整 */
+  #footer-belt-pc {
+    height: 27.5rem;
+  }
+
+}

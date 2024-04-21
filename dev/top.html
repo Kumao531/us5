@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+
+    <title>ミカゲＩＴラボ</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボは、トータル システム コーディネートという、
+      お客様が創造するサービスのありかた、そのサービスを創り出すビジネスの流れ、サービスを行うための
+      業務のデザインを含め、そのサービスを実現するためのシステムの制作を総合的に行っています。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/top.css">
+
+  </head>
+
+  <body>
+
+    <!-- ヘッダー -->
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./top.html">トップ</a>
+        <a href="./company.html">会社紹介</a>
+        <a href="./services.html">サービス説明</a>
+        <a href="./aboutus.html">About US</a>
+        <a href="./inquiry.html">お問い合わせ</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html" onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./company.html" onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">会社紹介</a>
+        <a class="menu" href="./services.html" onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">サービス説明</a>
+        <a class="menu" href="./aboutus.html" onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">About US</a>
+        <a class="menu" href="./inquiry.html" onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">お問い合わせ</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（トップページ） -->
+    <main>
+
+      <article>
+
+        <!-- メインビジュアル -->
+        <section id="main-visual">
+          <div id="main-message">
+            <div id="img-pc">
+              <img src="./images/ThemaPhotos/LandingPage.png" alt="メインビジュアル">
+            </div>
+            <div id="img-sp">
+              <img src="./images/ThemaPhotos/LandingPageSP.png" alt="メインビジュアル">
+            </div>
+            <h1>ミカゲＩＴラボ</h1>
+            <p>より、シンプルに<br>より、スマートに<br>より、クールに　<br>より、リアルに　</p>
+          </div>
+        </section>
+
+        <!-- ページ内での説明本体 -->
+        <!-- 会社概要紹介 -->
+        <section>
+        <div id="main-description">
+
+          <!-- ご挨拶 -->
+          <div id="introduction">
+            <div id="intro-pc">
+              <h2>ご挨拶</h2>
+              <p>
+                　このたびは<strong>ミカゲITラボ</strong>のホームページへ訪問してくださいましてありがとうございます。<br>
+                　私たちは情報処理業界におきまして、単にシステム開発を行うだけではなく、お客様が創造するサービスのありかた、そのサービスを創り出すビジネスの流れ、サービスを行うための業務のデザイン、そして、サービスを実現するためのシステムの制作までを視野においた、<strong>「トータルシステム
+                  コーディネイト」</strong>と呼ぶ、<strong>「お客様のサービスを産み出すためのITの有様」</strong>を総合的に形作くるサービスを提供して<br>います。
+              </p>
+
+              <details id="summary-explain">
+                <summary>お知らせ：本サイトは制作見本を兼ねてます。色々なパーツの展覧を行っているので、全体を通してみるとテーマの統一感は若干落ちています</summary>
+                <br>　このサイトは「制作見本」を兼ねてます。<br>
+                　各ページは、色々なデザインをお見せするため異なるテーマで作成しました。<br>
+                　また各ページ内も少しゴタゴタしますが、いくつかの仕掛けを置いてあります。<br>
+                　それゆえ、全体を通しての統一感は出しておりません。
+              </details>
+
+            </div>
+            <div id="intro-sp">
+              <h2>ご挨拶</h2>
+              <p>
+                　このたびは<strong>ミカゲITラボ</strong>のホームページへ<br>訪問してくださいましてありがとうございます。<br><br>
+                　私たちは情報処理業界におきまして、単にシステム開発を行うだけではなく、お客様が創造するサービスのありかた、そのサービスを創り出すビジネスの流れ、サービスを行うための業務のデザイン、そして、サービスを実現するためのシステムの制作までを視野においた、<strong>「トータルシステムコーディネイト」</strong>と呼ぶ、<strong>「お客様のサービスを産み出すためのITの有様」</strong>を総合的に形作くるサービスを提供しています。
+              </p>
+
+              <details>
+                <summary>お知らせ：本サイトは展示見本を兼ねてます。色々なパーツの展覧を行っているので、全体を通してみるとテーマの統一感は若干落ちています</summary>
+                <br>このサイトは「制作見本」を兼ねてます。<br>
+                各ページは、色々なデザインをお見せするため異なるテーマで作成しました。<br>
+                また各ページ内も少しゴタゴタしますが、いくつかの仕掛けを置いてあります。<br>
+                それゆえ、全体を通しての統一感は出しておりません。
+              </details>
+
+            </div>
+          </div>
+
+          <!-- 会社説明 -->
+          <div id="our-company">
+            <h3>会社概要</h3>
+
+            <div id="our-company-description">
+              <!-- どんな会社なのか -->
+              <div class="two-frame">
+                <div id="what-company">
+                  <img class="wood-frame" src="./images/Page-top/flame.png" alt="どんな会社なのか" />
+                  <p>どんな会社なのか</p>
+                  <ul>
+                    <li>お客様のビジネスのありかたをいっしょに考えます</li>
+                    <li>サービスをどう実現するかをいっしょに考えます</li>
+                    <li>サービスにふさわしいより良いシステムを提供します</li>
+                  </ul>
+                </div>
+                <a href="./company.html">
+                  <img class="detail-button" src="./images/Button/ButtonMoreDetail.png" alt="より詳細ボタン">
+                </a>
+              </div>
+
+              <!-- どんなサービスを提供しているのか -->
+              <div class="two-frame">
+                <div id="what-services">
+                  <img class="wood-frame" src="./images/Page-top/flame.png" alt="どんなサービスを提供しているのか" />
+                  <p>どんなサービスを<br>提供しているのか</p>
+                  <ul>
+                    <li>お客様のサービスの設計を支援</li>
+                    <li>業務の流れの設計を支援</li>
+                    <li>サービスを実現するためのシステム制作</li>
+                    <li>システム製造活動の改善を支援</li>
+                  </ul>
+                </div>
+                <a href="./services.html">
+                  <img class="detail-button" src="./images/Button/ButtonMoreDetail.png" alt="より詳細ボタン">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- サービスへの心構え -->
+          <div id="our-attitude">
+            <h3>サービスへの心構え</h3>
+
+            <div id="our-attitude-description">
+              <!-- 企業理念 -->
+              <div class="two-frame">
+                <div id="what-tympathy">
+                  <img class="wood-frame" src="./images/Page-top/frame2.png" alt="企業理念" />
+                  <p>企業理念</p>
+                  <ol>
+                    <li>信用と信頼を貫く</li>
+                    <li>正しいことを提供する</li>
+                    <li>先を知り、主流を成す</li>
+                    <li>倫理を堅持する</li>
+                  </ol>
+                </div>
+                <a href="./company.html#philosophy-point-01">
+                  <img class="detail-button" src="./images/Button/ButtonMoreDetail2.png" alt="より詳細ボタン">
+                </a>
+              </div>
+
+              <!-- モットー -->
+              <div class="two-frame">
+                <div id="what-motto">
+                  <img class="wood-frame" src="./images/Page-top/frame2.png" alt="モットー" />
+                  <p>モットー</p>
+                  <ul>
+                    <li>より、シンプルに</li>
+                    <li>より、スマートに</li>
+                    <li>より、クールに</li>
+                    <li>より、リアルに</li>
+                  </ul>
+                </div>
+                <a href="./inq-motto.html">
+                  <img class="detail-button" src="./images/Button/ButtonMoreDetail2.png" alt="より詳細ボタン">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./top.html">トップ</a></p>
+                <p><a href="./company.html">会社紹介</a></p>
+                <p><a href="./services.html">サービス説明</a></p>
+                <p><a href="./aboutus.html">About US</a></p>
+                <p><a href="./inquiry.html">お問い合わせ</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+      <script src="./js/top.js"></script>
+  </body>
+</html>

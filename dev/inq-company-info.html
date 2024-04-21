@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <title>ミカゲＩＴラボ ｜About US | 企業情報</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ミカゲＩＴラボの企業情報です。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <!--    <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="./css/inq-company-info.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- ロゴ -->
+      <a href="./top.html" id="logo"><img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る"></a>
+
+      <!-- ************************** -->
+      <!-- バナー・ナビゲーション部分 -->
+      <!-- ************************** -->
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="./aboutus.html#return-point">戻る</a>
+      </nav>
+
+      <!-- スマフォ用メニューボタン -->
+      <img id="menu-sp" src="./images/Button/button-menu.png" alt="ナビゲーションを開く"
+        onclick="document.getElementById('nav-sp').style.display = 'block';document.getElementById('menu-sp').style.display = 'none';" />
+
+      <!-- スマフォ用ナビゲーション -->
+      <nav id="nav-sp">
+        <img id="close" src="./images/Button/button-close.png" alt="ナビゲーションを閉じる"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';" />
+
+        <a id="logo-sp" href="./top.html"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">
+          <img src="./images/TradeMark/TradeMarkWide.png" alt="トップページに戻る" />
+        </a>
+        <a class="menu" href="./aboutus.html#return-point"
+          onclick="document.getElementById('nav-sp').style.display = 'none';document.getElementById('menu-sp').style.display = 'inline-block';">戻る</a>
+      </nav>
+
+    </header>
+
+    <!-- ************************** -->
+    <!-- ページ説明本体             -->
+    <!-- ************************** -->
+    <!-- 説明部分本体（会社紹介ページ） -->
+
+    <main>
+
+      <article>
+
+        <!-- 企業情報 -->
+        <section id="main-description">
+
+          <div id="information-area">
+
+            <h3>企業情報</h3>
+
+            <div id="company-info">
+
+              <!-- 会社名称 -->
+              <div id="company" class="information">
+                <div class="label">
+                  <p>会社名称</p>
+                </div>
+                <div class="mention">
+                  <p>ミカゲＩＴラボ（予定）</p>
+                </div>
+              </div>
+
+              <!-- 会社名称かな -->
+              <div id="kana" class="information">
+                <div class="label">
+                  <p>会社名称かな</p>
+                </div>
+                <div class="mention">
+                  <p>みかげあいてぃらぼ（予定）</p>
+                </div>
+              </div>
+
+                <!-- 所在地 -->
+                <div id="jusho" class="information">
+                  <div class="label">
+                    <p>所在地</p>
+                  </div>
+                  <div class="mention">
+                    <p>神奈川県横浜市都筑区茅ヶ崎一丁目１番５－５０３（予定）</p>
+                  </div>
+                </div>
+
+                <!-- 法人登記番号 -->
+                <div id="registration" class="information">
+                  <div class="label">
+                    <p>法人登記番号</p>
+                  </div>
+                  <div class="mention">
+                    <p>（創業準備中未登記のためなし）</p>
+                  </div>
+                </div>
+
+                <!-- 取引先金融機関 -->
+                <div id="bank" class="information">
+                  <div class="label">
+                    <p>取引先金融機関</p>
+                  </div>
+                  <div class="mention">
+                    <p>（未定）</p>
+                  </div>
+                </div>
+
+                <!-- 会計事務所 -->
+                <div id="account-firm" class="information">
+                  <div class="label">
+                    <p>会計事務所</p>
+                  </div>
+                  <div class="mention">
+                    <p>（未定）</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <h3>地図</h3>
+              <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.4625108931873!2d139.58218457668403!3d35.54227793759304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f621267776b7%3A0xccedc3b8c6fec192!2z5pel5pys44CB44CSMjI0LTAwMzMg56We5aWI5bed55yM5qiq5rWc5biC6YO9562R5Yy66IyF44Kx5bSO5p2x77yR5LiB55uu77yR4oiS77yVIOa4r-WMl-ODi-ODpeODvOOCv-OCpuODs-ODu-OCpOOCqu-8leeVqumkqA!5e0!3m2!1sja!2sau!4v1709618463615!5m2!1sja!2sau"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+
+      </article>
+
+      <!-- フッター -->
+      <footer>
+        <!-- PC用フッター -->
+        <div id="footer-belt-pc">
+
+          <!-- ロゴ表示分 -->
+          <div id="logo-on-footer">
+            <img src="./images/TradeMark/TradeMarkWide.png" alt="フッター・ロゴ" />
+          </div>
+
+          <!-- フッター表示部 -->
+          <div id="footer-zone">
+
+            <!-- ナビゲーション -->
+            <div id="footer-nav-pc">
+              <h4>メニュー</h4>
+              <nav>
+                <p><a href="./aboutus.html#return-point">戻る</a></p>
+              </nav>
+            </div>
+
+            <!-- 連絡先 -->
+            <div id="contact">
+              <!-- 住所 -->
+              <div id="address">
+                <h4>住所</h4>
+                <p>〒224-0033<br>神奈川県横浜市都筑区茅ヶ崎東<br>１－１－５－５０３</p>
+              </div>
+              <!-- 電話・Eメール -->
+              <div id="tel-mail">
+                <h4>電話・Eメール</h4>
+                <p>Tel: 080-3443-1638</p>
+                <p>Email: t-ariyoshi@mikage-it-lab.com</p>
+              </div>
+            </div>
+
+            <!-- 営業時間 -->
+            <div id="business-hours">
+              <h4>営業時間</h4>
+              <p>土日・祝日・年末年始を除く平日<br>10:00～12:00、13:00～17:00</p>
+            </div>
+
+          </div>
+
+          <!-- コピーライト表示部 -->
+          <div id="copyright">
+            <spam>©2024 Mikage IT Lab.</spam>
+          </div>
+
+        </div>
+
+        <script src="./js/common.js"></script>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>
